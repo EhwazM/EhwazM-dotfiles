@@ -32,7 +32,7 @@
     font-family: "Fira Sans semibold", "Symbols Nerd Font Mono";
     border: none;
     border-radius: 0px;
-    min-height: 15px;
+    min-height: 0px;
 }
 
 window#waybar {
