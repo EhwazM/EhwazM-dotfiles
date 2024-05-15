@@ -94,10 +94,10 @@ tooltip label {
  * ----------------------------------------------------- */
 
 #window {
-    margin: 0px 15px 0px 0px;
-    border-radius: 12px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
     color:@textcolor;
-    font-size:14px;
+    font-size:12px;
     font-weight:normal;
 }
 
@@ -137,7 +137,7 @@ window#waybar.empty #window {
 #custom-system,
 #custom-waybarthemes {
     margin-right: 23px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     color: @iconcolor;
 }
@@ -190,14 +190,14 @@ window#waybar.empty #window {
 
  #idle_inhibitor {
     margin-right: 15px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: @iconcolor;
 }
 
 #idle_inhibitor.activated {
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     color: #dc2f2f;
 }
@@ -207,9 +207,9 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-appmenuicon {
-    font-size: 20px;
+    font-size: 16px;
     color: @textcolor;
-    margin: 0px 15px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 /* -----------------------------------------------------
@@ -217,9 +217,9 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-exit {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
     padding:0px;
-    font-size:16px;
+    font-size:12px;
     color: @iconcolor;
 }
 
@@ -228,10 +228,10 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-updates {
-    font-size: 14px;
+    font-size: 12px;
     color: @textcolor;
-    border-radius: 15px;
-    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
 }
 
 #custom-updates.green {
@@ -251,10 +251,10 @@ window#waybar.empty #window {
 
 #custom-youtube {
     background-color: @backgroundlight;
-    font-size: 14px;
+    font-size: 12px;
     color: @textcolor2;
-    border-radius: 15px;
-    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
 }
 
 /* -----------------------------------------------------
@@ -264,7 +264,7 @@ window#waybar.empty #window {
  #disk,#memory,#cpu,#language {
     margin:0px;
     padding:0px;
-    font-size:14px;
+    font-size:12px;
     color:@iconcolor;
 }
 
@@ -277,9 +277,9 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #clock {
-    font-size: 15px;
+    font-size: 12px;
     color: @textcolor;
-    margin: 0px 15px 0px 0px;
+    margin: 0px 10px 0px 0px;
 }
 
 /* -----------------------------------------------------
@@ -287,10 +287,10 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #pulseaudio {
-    font-size: 14px;
+    font-size: 12px;
     color: @textcolor;
-    border-radius: 15px;
-    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
 }
 
 #pulseaudio.muted {
@@ -302,10 +302,10 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #network {
-    font-size: 14px;
+    font-size: 12px;
     color: @textcolor;
-    border-radius: 15px;
-    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
 }
 
 #network.ethernet {
@@ -321,10 +321,10 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
  #bluetooth, #bluetooth.on, #bluetooth.connected {
-    font-size: 14px;
+    font-size: 12px;
     color: @textcolor;
-    border-radius: 15px;
-    margin: 10px 15px 10px 0px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
 }
 
 #bluetooth.off {
@@ -338,10 +338,10 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #battery {
-    font-size: 14px;
+    font-size: 12px;
     color: @textcolor;
-    border-radius: 15px;
-    margin: 10px 15px 10px 0px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
 }
 
 #battery.charging, #battery.plugged {

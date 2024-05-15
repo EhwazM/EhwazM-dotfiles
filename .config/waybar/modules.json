@@ -33,7 +33,7 @@
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-           "kitty"
+           "alacritty"
         ],
         "app_ids-mapping": {
             "firefoxdeveloperedition": "firefox-developer-edition"
@@ -103,7 +103,7 @@
     // Calculator
     "custom/calculator": {
         "format": "",
-        "on-click": "qalculate-gtk",
+        "on-click": "alacritty -e calc",
         "tooltip": false
     },
 
@@ -158,13 +158,13 @@
     // CPU
     "cpu": {
         "format": "/ C {usage}% ",
-        "on-click": "kitty -e btop"
+        "on-click": "alacritty -e btop"
     },
 
     // Memory
     "memory": {
         "format": "/ M {}% ",
-        "on-click": "kitty -e btop"
+        "on-click": "alacritty -e btop"
     },
 
     // Harddisc space used
@@ -172,7 +172,7 @@
         "interval": 30,
         "format": "D {percentage_used}% ",
         "path": "/",
-        "on-click": "kitty -e btop"
+        "on-click": "alacritty -e btop"
     }, 
 
     // Group Hardware
@@ -211,7 +211,7 @@
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50,
-        "on-click": "nmtui"
+        // "on-click": "nm-applet"
     },
 
     // Battery
