@@ -29,7 +29,7 @@
  * ----------------------------------------------------- */
 
 * {
-    font-family: "Fira Sans semibold", "Symbols Nerd Font Mono";
+    font-family: "Fira Sans semibold", "Symbols Nerd Font Mono", "FontAwesome6Free", "SymbolsNerdFont";
     border: none;
     border-radius: 0px;
     min-height: 0px;
@@ -369,7 +369,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #tray {
-    margin:0px 10px 0px 0px;
+    margin:0px 7px 0px 0px;
 }
 
 #tray > .passive {
