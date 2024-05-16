@@ -59,3 +59,4 @@ vi_mode_style = {shape = "Beam", blinking = "Never"}
 
 [window]
 opacity = 0.85
+decorations = "None"

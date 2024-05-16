@@ -10,9 +10,8 @@
 //
 {
     // General Settings
-    "layer": "top",
+    "layer": "bottom",
     "margin-bottom": 0,
-    "layer": "top",
     "margin-left": 0,
     "margin-right": 0,    
     "spacing": 0,
