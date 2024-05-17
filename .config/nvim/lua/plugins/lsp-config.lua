@@ -29,6 +29,12 @@ return {
 			lspconfig.julials.setup({
 				capabilities = capabilities,
 			})
+			lspconfig.typos_lsp.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.spectral.setup({
+				capabilities = capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
