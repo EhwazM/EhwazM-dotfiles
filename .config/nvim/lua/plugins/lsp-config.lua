@@ -29,9 +29,6 @@ return {
 			lspconfig.julials.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.typos_lsp.setup({
-				capabilities = capabilities,
-			})
 			lspconfig.spectral.setup({
 				capabilities = capabilities,
 			})
