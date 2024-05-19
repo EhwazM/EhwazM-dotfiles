@@ -29,7 +29,7 @@ return {
 			lspconfig.julials.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.spectral.setup({
+			lspconfig.jsonls.setup({
 				capabilities = capabilities,
 			})
 

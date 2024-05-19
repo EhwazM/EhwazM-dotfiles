@@ -17,7 +17,7 @@
     "spacing": 0,
 
     // Load Modules
-    "include": [".config/waybar/modules.json"],
+    "include": [".config/waybar/modules.jsonc"],
 
     // Modules Left
     "modules-left": [

@@ -43,6 +43,13 @@
             "Foot Server": "Terminal"
         }
     },
+    
+    // Notificatrion
+    "custom/dunst": {
+      "format": "",
+      "on-click": "dunst",
+      "tooltip": false
+    },
 
     // Hyprland Window
     "hyprland/window": {
