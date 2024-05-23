@@ -123,9 +123,9 @@
 
     // Rofi Application Launcher
     "custom/appmenuicon": {
-        "format": "",
+        "format": "",
         "on-click": "wlogout",
-        "on-click-right": "~/dotfiles/hypr/scripts/keybindings.sh",
+        "on-click-right": "~/.dotfiles/.config/hypr/scripts/keybindings.sh",
         "tooltip": false
     },    
 
@@ -148,12 +148,13 @@
 
     // Clock
     "clock": {
-        "format": "{:%H:%M %a}",
+        "format": "  {:%H:%M %a}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
-        "format-alt": "{:%d/%m/%Y}"
+        "format-alt": "  {:%d/%m/%Y}",
         // END CLOCK FORMAT
+        "on-click-right": "alacritty --title 'calcure' -e calcure"
     },
 
     // System
@@ -164,20 +165,20 @@
 
     // CPU
     "cpu": {
-        "format": "/ C {usage}% ",
+        "format": "/  {usage}% ",
         "on-click": "alacritty --title 'btop' -e btop"
     },
 
     // Memory
     "memory": {
-        "format": "/ M {}% ",
+        "format": "/  {}% ",
         "on-click": "alacritty --title 'btop' -e btop"
     },
 
     // Harddisc space used
     "disk": {
         "interval": 30,
-        "format": "D {percentage_used}% ",
+        "format": " {percentage_used}% ",
         "path": "/",
         "on-click": "alacritty --title 'btop' -e btop"
     }, 
@@ -203,7 +204,7 @@
         "orientation": "horizontal",
         "modules": [
             "custom/browser",
-            "custom/filemanager",
+            "custom/filemanager"
          ]
     },
 
@@ -217,7 +218,7 @@
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
         "tooltip-format-disconnected": "Disconnected",
-        "max-length": 50,
+        "max-length": 50
         // "on-click": "nm-applet"
     },
 
@@ -260,8 +261,8 @@
 
     // Bluetooth
     "bluetooth": {
-        "format": " {status}",
-        "format-disabled": "",
+        "format": "󰂯 {status}",
+        "format-disabled": "󰂲",
         "format-off": "",
         "interval": 30,
         "on-click": "blueman-manager",
