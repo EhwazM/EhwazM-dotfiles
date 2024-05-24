@@ -10,6 +10,7 @@ return {
         null_ls.builtins.formatting.biome,
         null_ls.builtins.formatting.prettier,
         null_ls.builtins.formatting.shfmt,
+        null_ls.builtins.formatting.jupytext,
 			},
 		})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})

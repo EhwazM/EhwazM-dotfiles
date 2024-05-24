@@ -18,6 +18,7 @@
 @define-color backgrounddark #FFFFFF;
 @define-color workspacesbackground1 #FFFFFF;
 @define-color workspacesbackground2 #CCCCCC;
+@define-color workspacesbackground3 #7B7B7B;
 @define-color bordercolor #FFFFFF;
 @define-color textcolor1 #000000;
 @define-color textcolor2 #000000;
@@ -64,7 +65,8 @@ window#waybar {
 
 #workspaces button.active {
     color: @textcolor1;
-    background: @workspacesbackground2;
+    background: @workspacesbackground3;
+    border-radius: 15px;
 }
 
 #workspaces button:hover {
