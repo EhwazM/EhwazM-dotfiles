@@ -148,11 +148,12 @@
 
     // Clock
     "clock": {
-        "format": "  {:%H:%M %a}",
+        "interval": 30,
+        "format": " {:%I:%M %p}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
-        "format-alt": "  {:%d/%m/%Y}",
+        "format-alt": " {:%d/%m/%Y}",
         // END CLOCK FORMAT
         "on-click-right": "alacritty --title 'calcure' -e calcure"
     },
@@ -211,12 +212,12 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": "   {signalStrength}%",
-        "format-ethernet": "  {ifname}",
+        "format-wifi": " {signalStrength}%",
+        "format-ethernet": " {ifname}",
         "format-disconnected": "Disconnected",
-        "tooltip-format": " {ifname} via {gwaddri}",
-        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
-        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
+        "tooltip-format": "{ifname} via {gwaddri}",
+        "tooltip-format-wifi": " {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
+        "tooltip-format-ethernet": "{ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50
         // "on-click": "nm-applet"
@@ -229,22 +230,25 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon}   {capacity}%",
-        "format-charging": "  {capacity}%",
-        "format-plugged": "  {capacity}%",
-        "format-alt": "{icon}  {time}",
+        "interval": 3,
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": "{capacity}%",
+        "format-alt": "{icon} {time}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": [" ", " ", " ", " ", " "]
+        "format-icons": [" ", " ", " ", " ", " "],
+        "on-scroll-up": "brightnessctl set +2%",
+        "on-scroll-down": "brightnessctl set 2%-"
     },
 
     // Pulseaudio
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}   {volume}%",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}%  {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-muted": "{format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
@@ -256,6 +260,7 @@
             "car": " ",
             "default": [" ", " ", " "]
         },
+        "interval": 3,
         "on-click": "pavucontrol -t 3"
     },
 

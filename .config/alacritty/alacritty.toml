@@ -9,14 +9,14 @@ indexed_colors = [
 ]
 
 [colors.bright]
-black = "#5D5D5D"
-blue = "#0071FF"
-cyan = "#4BB8FD"
-green = "#7BC91F"
-magenta = "#FF1D62"
-red = "#FF361E"
-white = "#A020F0"
-yellow = "#FFD00A"
+black = "#5A5A5A"
+blue = "#97A4F7"
+cyan = "#68F2E0"
+green = "#6CE05C"
+magenta = "#C495F0"
+red = "#F01578"
+white = "#FFFFFF"
+yellow = "#F3F79E"
 
 [colors.cursor]
 cursor = "#F5E0DC"
@@ -33,31 +33,33 @@ white = "#BAC2DE"
 yellow = "#F9E2AF"
 
 [colors.normal]
-black = "#303030"
-blue = "#004F9E"
-cyan = "#2AA7E7"
-green = "#6AB017"
-magenta = "#EC0048"
-red = "#E1321A"
-white = "#F2F2F2"
-yellow = "#FFC005"
+black = "#4D4D4D"
+blue = "#3449D1"
+cyan = "#0798AB"
+green = "#1FB242"
+magenta = "#8400FF"
+red = "#C70031"
+white = "#E2D1E3"
+yellow = "#D8E30E"
 
 [colors.primary]
-background = "#101010"
+background = "#131925"
 bright_foreground = "#CDD6F4"
 dim_foreground = "#CDD6F4"
-foreground = "#F2F2F2"
+foreground = "#F7F7F7"
 
 [font]
 size = 9
 
-[cursor]
+[cursor.style]
+shape = "Beam"
+blinking = "Never"
 
-style = {shape = "Beam", blinking = "Never"}
-
-vi_mode_style = {shape = "Beam", blinking = "Never"}
+[cursor.vi_mode_style]
+shape = "Beam"
+blinking = "Never"
 
 [window]
-opacity = 0.85
+opacity = 0.55
 decorations = "None"
-dynamic_title =  true
+dynamic_title = true
