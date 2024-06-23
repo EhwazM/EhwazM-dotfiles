@@ -22,7 +22,7 @@
     // Modules Left
     "modules-left": [
       "custom/appmenuicon",
-      "hyprland/workspaces",
+      // "hyprland/workspaces",
 	    "wlr/taskbar"
     ],
 
