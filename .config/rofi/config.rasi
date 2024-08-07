@@ -6,8 +6,18 @@ configuration {
     display-drun: "Search";
 }
 
-@theme "oxide"
+//@theme "oxide"
 
 listview {
     lines: 12;
 }
+
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+
+//@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
+
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+
+//@theme "/home/EhwazM/.config/rofi/themes/oxide.rasi"
+
+@theme "/usr/share/rofi/themes/arthur.rasi"
