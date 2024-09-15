@@ -150,7 +150,7 @@
     "clock": {
         "interval": 30,
         "format": " {:%I:%M %p}",
-        // "timezone": "America/New_York",
+        "timezone": "America/Bogota",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
         "format-alt": " {:%d/%m/%Y}",

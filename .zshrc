@@ -108,4 +108,5 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias nv="nvim"
   alias updtall="paru -Syu --noconfirm && pacman -Qtdq | sudo pacman -Rns -"
+  alias jupython="source ~/VirtualEnvs/Python/bin/activate && python -m notebook"
 

@@ -26,8 +26,8 @@ move_all_workspaces_to_monitor() {
 }
 
 # TODO: Detect these instead of hardcoding them
-INTERNAL_MONITOR="ADD YOUR INTERNAL MONITOR NAME HERE"
-EXTERNAL_MONITOR="ADD YOUR EXTERNAL MONITOR NAME HERE"
+INTERNAL_MONITOR="eDP-1"
+EXTERNAL_MONITOR="HDMI-A-1"
 
 NUM_MONITORS=$(hyprctl monitors all | grep --count Monitor)
 NUM_MONITORS_ACTIVE=$(hyprctl monitors | grep --count Monitor)
