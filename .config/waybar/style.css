@@ -392,5 +392,8 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    font-size: 12px;
+    color: @textcolor;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
 }

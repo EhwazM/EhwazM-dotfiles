@@ -33,6 +33,7 @@
 
     // Modules Right    
     "modules-right": [
+        "backlight",
         "pulseaudio",
         "bluetooth",
         "battery", 
