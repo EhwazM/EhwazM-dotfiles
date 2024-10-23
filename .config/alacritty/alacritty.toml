@@ -1,6 +1,6 @@
-import = [
-    "/home/kai/.alacritty-colorscheme/themes/tokyonight_night.toml",
-]
+# import = [
+#     "/home/kai/.alacritty-colorscheme/themes/tokyonight_night.toml",
+# ]
 
 [colors]
 indexed_colors = [
@@ -76,6 +76,6 @@ shape = "Beam"
 blinking = "Never"
 
 [window]
-opacity = 0.55
+opacity = 0.50
 decorations = "None"
 dynamic_title = true
