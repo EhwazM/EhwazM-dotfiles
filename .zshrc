@@ -74,7 +74,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 plugins=(
 	git
 	zsh-syntax-highlighting
-	zsh-syntax-highlighting
+    zsh-autosuggestions
 #	zle-toggle-mouse
   archlinux
 )
@@ -107,6 +107,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias nv="nvim"
-  alias updtall="paru -Syu --noconfirm && pacman -Qtdq | sudo pacman -Rns -"
+  alias updtall="paru -Syu --noconfirm && pacman -Qtdq | sudo pacman -Rns - && paru -Scc --noconfirm"
   alias jupython="source ~/VirtualEnvs/Python/bin/activate && python -m notebook"
   alias RedPytaya="source ~/VirtualEnvs/RedPitaya/bin/activate && python -m notebook"
