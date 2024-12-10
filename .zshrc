@@ -109,4 +109,4 @@ fi
   alias nv="nvim"
   alias updtall="paru -Syu --noconfirm && pacman -Qtdq | sudo pacman -Rns -"
   alias jupython="source ~/VirtualEnvs/Python/bin/activate && python -m notebook"
-
+  alias RedPytaya="source ~/VirtualEnvs/RedPitaya/bin/activate && python -m notebook"
