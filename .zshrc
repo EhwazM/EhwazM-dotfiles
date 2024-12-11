@@ -107,6 +107,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias nv="nvim"
-  alias updtall="paru -Syu --noconfirm && pacman -Qtdq | sudo pacman -Rns - && paru -Scc --noconfirm"
+  alias updtall="paru -Syu --noconfirm && paru -Scc --noconfirm && pacman -Qtdq | sudo pacman -Rns - "
   alias jupython="source ~/VirtualEnvs/Python/bin/activate && python -m notebook"
   alias RedPytaya="source ~/VirtualEnvs/RedPitaya/bin/activate && python -m notebook"

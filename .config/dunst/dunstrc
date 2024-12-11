@@ -7,9 +7,9 @@
     offset = 15x15
     scale = 0
     notification_limit = 0
-    progress_bar = true
+    progress_bar = false
     indicate_hidden = yes
-    transparency = 40
+    transparency = 0
     separator_height = 2
     padding = 10
     horizontal_padding = 10
@@ -45,17 +45,16 @@
     mouse_left_click = close_current
     mouse_middle_click = do_action, close_current
     mouse_right_click = close_all
-    fullscreen = pushback
 
 [urgency_low]
     background = "#232323"
     foreground = "#a8a8a8"
-    timeout = 5
+    timeout = 10
 
 [urgency_normal]
     background = "#232323"
     foreground = "#a8a8a8"
-    timeout = 5
+    timeout = 10
     override_pause_level = 30
 
 [urgency_critical]
