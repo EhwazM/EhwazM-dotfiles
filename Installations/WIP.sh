@@ -1,4 +1,17 @@
 #!/bin/bash
+set -e
+
+loadkeys us
+
+read -p "Do you need to connect to wi-fi? (y/n)" _YesNotWIFI
+
+if [ "$_YesNotWIFI" = "y" ]; then
+    read -p "Red Name:" _RedName
+    read -p "password:" _RedPassword
+    iwctl --passphrase $_RedPassword station wlan0 connect $_RedName
+fi
+
+timedatectl set-ntp true
 
 _PartitionsNames=false
 while [ "$_PartitionsNames" = false ]; do
@@ -32,7 +45,7 @@ echo "Partitions formatting done."
 
 # Mounting
 mount /dev/$_FS /mnt/
-mkdir -p /mnt/boot/efi/
+mkdir -U /mnt/boot/efi/
 mount /dev/$_EFI /mnt/boot/efi/
 
 echo "Partitions mounting done."

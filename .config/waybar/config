@@ -21,13 +21,13 @@
 
     // Modules Left
     "modules-left": [
-      "custom/appmenuicon",
-      // "hyprland/workspaces",
+        "custom/appmenuicon",
+        // "hyprland/workspaces",
 	    "wlr/taskbar"
     ],
 
     // Modules Center
-      "modules-center": [
+    "modules-center": [
 	    "hyprland/window",
     ],
 
