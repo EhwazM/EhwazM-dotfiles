@@ -14,16 +14,16 @@
  * Import Pywal colors 
  * ----------------------------------------------------- */
 /* @import 'style-light.css'; */
-@define-color backgroundlight #FFFFFF;
-@define-color backgrounddark #FFFFFF;
-@define-color workspacesbackground1 #FFFFFF;
-@define-color workspacesbackground2 #CCCCCC;
+@define-color backgroundlight #272932;
+@define-color backgrounddark #030303;
+@define-color workspacesbackground1 #272932;
+@define-color workspacesbackground2 #272932;
 @define-color workspacesbackground3 #7B7B7B;
-@define-color bordercolor #FFFFFF;
-@define-color textcolor1 #000000;
-@define-color textcolor2 #000000;
-@define-color textcolor3 #FFFFFF;
-@define-color iconcolor #FFFFFF;
+@define-color bordercolor #1C7293;
+@define-color textcolor1 #EFEFEF;
+@define-color textcolor2 #F1F2EB;
+@define-color textcolor3 #F2EFE7;
+@define-color iconcolor #F2EFE7;
 
 /* -----------------------------------------------------
  * General 

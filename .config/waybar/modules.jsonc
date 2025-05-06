@@ -131,16 +131,43 @@
     "spacing": 10,
   },
   // Clock
-  "clock": {
-    "interval": 30,
-    "format": " {:%I:%M %p}",
-    "timezone": "America/Bogota",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    // START CLOCK FORMAT
-    "format-alt": " {:%d/%m/%Y}",
-    // END CLOCK FORMAT
-    "on-click-right": "alacritty --title 'calcure' -e calcure",
-  },
+  // "clock": {
+  //   "interval": 30,
+  //   "format": " {:%I:%M %p}",
+  //   "timezone": "America/Bogota",
+  //   "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  //   // START CLOCK FORMAT
+  //   "format-alt": " {:%d/%m/%Y}",
+  //   // END CLOCK FORMAT
+  //   "on-click-right": "alacritty --title 'calcure' -e calcure",
+  // },
+    "clock": {
+        "interval": 1,
+        "format": " {:%I:%M %p}",
+        "format-alt": "{:%B %d, %Y (%I:%M:%S %p)} ",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode"          : "year",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "on-click-right": "mode",
+            "format": {
+                "months":     "<span color='#B9E3C6'><b>{}</b></span>",
+                "days":       "<span color='#6A7EFC'><b>{}</b></span>",
+                "weeks":      "<span color='#F2EFE7'><b>W{}</b></span>",
+                "weekdays":   "<span color='#FF5656'><b>{}</b></span>",
+                "today":      "<span color='#0C3C78'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions": {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
   // System
   "custom/system": {
     "format": "",
