@@ -75,6 +75,8 @@ plugins=(
 	git
 	zsh-syntax-highlighting
     zsh-autosuggestions
+    you-should-use
+    zsh-bat
 #	zle-toggle-mouse
     archlinux
 )
