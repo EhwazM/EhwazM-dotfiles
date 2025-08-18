@@ -76,7 +76,7 @@ plugins=(
 	zsh-syntax-highlighting
     zsh-autosuggestions
 #	zle-toggle-mouse
-  archlinux
+    archlinux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -107,6 +107,4 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias nv="nvim"
-  alias updtall="paru -Syu --noconfirm && paru -Scc --noconfirm && sudo chown -R $(whoami) /opt/visual-studio-code/resources/app/out/vs/workbench && pacman -Qtdq | sudo pacman -Rns - "
-  alias jupython="source ~/VirtualEnvs/Python/bin/activate"
-  alias RedPitaya="source ~/VirtualEnvs/RedPitaya/bin/activate"
+  alias updtall="paru -Syu --noconfirm && paru -Scc && sudo chown -R $(whoami) /opt/visual-studio-code/resources/app/out/vs/workbench && pacman -Qtdq | xargs -r sudo pacman -Rns --noconfirm"
