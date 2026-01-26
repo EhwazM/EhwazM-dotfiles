@@ -144,7 +144,7 @@
     "clock": {
         "interval": 1,
         "format": " {:%I:%M %p}",
-        "format-alt": "{:%B %d, %Y (%I:%M:%S %p)} ",
+        "format-alt": "{:%d/%m/%Y (%H:%M:%S)} ",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode"          : "year",

@@ -1,0 +1,351 @@
+{
+  "Revision": "0.6.6.0",
+  "Profiles": [
+    {
+      "Tablet": "Huion HS611",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [
+        {
+          "Path": "monitor_toggle.monitor_toggle",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "RadialFollow.RadialFollowSmoothingScreenSpace",
+          "Settings": [
+            {
+              "Property": "OuterRadius",
+              "Value": 5.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
+          "Settings": [
+            {
+              "Property": "OuterRadius",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 0.4
+            }
+          ],
+          "Enable": true
+        },
+        {
+          "Path": "BetterCalibrator.BetterCalibrator",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "VoiDPlugins.Filter.Reconstructor",
+          "Settings": [
+            {
+              "Property": "EMAWeight",
+              "Value": 0.5
+            }
+          ],
+          "Enable": true
+        },
+        {
+          "Path": "tilt_calibrate.TiltCalibration",
+          "Settings": [
+            {
+              "Property": "X_sqr_coeff",
+              "Value": 0.06
+            },
+            {
+              "Property": "Y_sqr_coeff",
+              "Value": 0.06
+            },
+            {
+              "Property": "X_coeff",
+              "Value": 0.5
+            },
+            {
+              "Property": "Y_coeff",
+              "Value": 0.5
+            },
+            {
+              "Property": "XY_coeff",
+              "Value": 0.05
+            }
+          ],
+          "Enable": true
+        },
+        {
+          "Path": "OTD.EnhancedOutputMode.Lib.Tools.TouchSettings",
+          "Settings": [
+            {
+              "Property": "IsTouchToggled",
+              "Value": true
+            },
+            {
+              "Property": "DisableWhenPenInRange",
+              "Value": false
+            },
+            {
+              "Property": "PenResetTime",
+              "Value": 100
+            },
+            {
+              "Property": "MatchPenSensibilityInRelativeMode",
+              "Value": false
+            },
+            {
+              "Property": "MaxX",
+              "Value": 4095
+            },
+            {
+              "Property": "MaxY",
+              "Value": 4095
+            }
+          ],
+          "Enable": true
+        }
+      ],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 1920.0,
+          "Height": 1080.0,
+          "X": 960.0,
+          "Y": 540.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 258.4,
+          "Height": 161.5,
+          "X": 129.2,
+          "Y": 80.75,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": false
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 1.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+          "Settings": [
+            {
+              "Property": "Binding",
+              "Value": "Tip"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 1.0,
+        "EraserButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+          "Settings": [
+            {
+              "Property": "Binding",
+              "Value": "Eraser"
+            }
+          ],
+          "Enable": true
+        },
+        "PenButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.LinuxArtistMode.LinuxArtistModeButtonBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Pen Button 1"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.LinuxArtistMode.LinuxArtistModeButtonBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Pen Button 2"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "AuxButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+D"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+D1"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Z"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+Z"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Alt+C"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Shift+Alt+C"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Add"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+G"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Subtract"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+H"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null,
+        "DisablePressure": false,
+        "DisableTilt": false
+      }
+    }
+  ],
+  "LockUsableAreaDisplay": true,
+  "LockUsableAreaTablet": true,
+  "Tools": [
+    {
+      "Path": "ScrollBinding.ScrollBindingSettings",
+      "Settings": [
+        {
+          "Property": "LeftScroll",
+          "Value": 120
+        },
+        {
+          "Property": "RightScroll",
+          "Value": 120
+        },
+        {
+          "Property": "ForwardScroll",
+          "Value": 10
+        },
+        {
+          "Property": "BackwardScroll",
+          "Value": 10
+        },
+        {
+          "Property": "ScrollDelay",
+          "Value": 15
+        }
+      ],
+      "Enable": false
+    }
+  ]
+}

@@ -6,9 +6,9 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait Copy"/>
-  <property name="lastSavePath" value="/home/ehwazm/Documents/Xournal"/>
+  <property name="lastSavePath" value="/home/ehwazm/Downloads"/>
   <property name="lastOpenPath" value=""/>
-  <property name="lastImagePath" value=""/>
+  <property name="lastImagePath" value="/home/ehwazm/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
   <property name="zoomStep" value="10"/>
@@ -18,13 +18,14 @@
   <property name="mainWndHeight" value="600"/>
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
-  <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="150"/>
+  <property name="showSidebar" value="false"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
-  <property name="menubarVisible" value="true"/>
+  <property name="menubarVisible" value="false"/>
   <property name="filepathShownInTitlebar" value="false"/>
+  <property name="pageNumberShownInTitlebar" value="false"/>
   <property name="numColumns" value="1"/>
   <property name="numRows" value="1"/>
   <property name="viewFixedRows" value="false"/>
@@ -35,7 +36,7 @@
   <property name="numPairsOffset" value="1"/>
   <!--The icon theme, allowed values are "disabled", "onDrawOfLastPage", and "onScrollOfLastPage"-->
   <property name="emptyLastPageAppend" value="disabled"/>
-  <property name="presentationMode" value="false"/>
+  <property name="presentationMode" value="true"/>
   <!--Which GUI elements are shown in default view mode, separated by a colon (,)-->
   <property name="defaultViewModeAttributes" value="showMenubar,showToolbar,showSidebar"/>
   <!--Which GUI elements are shown in fullscreen view mode, separated by a colon (,)-->
@@ -43,18 +44,18 @@
   <!--Which GUI elements are shown in presentation view mode, separated by a colon (,)-->
   <property name="presentationViewModeAttributes" value="goFullscren,showToolbar"/>
   <!--The cursor icon used with a stylus, allowed values are "none", "dot", "big", "arrow"-->
-  <property name="stylusCursorType" value="big"/>
+  <property name="stylusCursorType" value="dot"/>
   <!--The eraser cursor visibility used with a stylus, allowed values are "never", "always", "hover", "touch"-->
   <property name="eraserVisibility" value="always"/>
   <!--The icon theme, allowed values are "iconsColor", "iconsLucide"-->
   <property name="iconTheme" value="iconsColor"/>
   <!--Dark/light mode, allowed values are "useSystem", "forceLight", "forceDark"-->
   <property name="themeVariant" value="forceDark"/>
-  <property name="highlightPosition" value="false"/>
+  <property name="highlightPosition" value="true"/>
   <property name="cursorHighlightColor" value="1732856137"/>
   <property name="cursorHighlightBorderColor" value="2147483648"/>
-  <property name="cursorHighlightRadius" value="10"/>
-  <property name="cursorHighlightBorderWidth" value="2"/>
+  <property name="cursorHighlightRadius" value="5"/>
+  <property name="cursorHighlightBorderWidth" value="1"/>
   <property name="useStockIcons" value="false"/>
   <property name="disableScrollbarFadeout" value="true"/>
   <property name="disableAudio" value="false"/>
@@ -63,13 +64,16 @@
   <property name="autoloadMostRecent" value="false"/>
   <property name="autoloadPdfXoj" value="true"/>
   <property name="defaultSaveName" value="%F-Note-%H-%M"/>
-  <property name="defaultPdfExportName" value="%{name}_annotated"/>
+  <property name="defaultPdfExportName" value="%{name}"/>
   <property name="autosaveEnabled" value="true"/>
   <property name="autosaveTimeout" value="3"/>
   <property name="addHorizontalSpace" value="false"/>
-  <property name="addHorizontalSpaceAmount" value="150"/>
+  <property name="addHorizontalSpaceAmountRight" value="150"/>
+  <property name="addHorizontalSpaceAmountLeft" value="150"/>
   <property name="addVerticalSpace" value="false"/>
-  <property name="addVerticalSpaceAmount" value="150"/>
+  <property name="addVerticalSpaceAmountAbove" value="150"/>
+  <property name="addVerticalSpaceAmountBelow" value="150"/>
+  <property name="unlimitedScrolling" value="false"/>
   <property name="drawDirModsEnabled" value="false"/>
   <property name="drawDirModsRadius" value="50"/>
   <property name="snapRotation" value="true"/>
@@ -81,9 +85,14 @@
   <property name="touchDrawing" value="false"/>
   <property name="gtkTouchInertialScrolling" value="true"/>
   <property name="pressureGuessing" value="false"/>
+  <property name="recolor.enabled" value="false"/>
+  <property name="recolor.sidebar" value="false"/>
+  <property name="recolor.dark" value="4281349190"/>
+  <property name="recolor.light" value="4291219701"/>
   <property name="selectionBorderColor" value="4294901760"/>
   <property name="backgroundColor" value="4292664021"/>
   <property name="selectionMarkerColor" value="4285702095"/>
+  <property name="activeSelectionColor" value="4286381056"/>
   <property name="touchZoomStartThreshold" value="0"/>
   <property name="pageRerenderThreshold" value="5"/>
   <!--The count of rendered PDF pages which will be cached.-->
@@ -100,7 +109,7 @@
   <property name="audioSampleRate" value="44100"/>
   <property name="audioGain" value="1"/>
   <property name="defaultSeekTime" value="5"/>
-  <property name="pluginEnabled" value="/usr/share/xournalpp/plugins/ColorCycle"/>
+  <property name="pluginEnabled" value="/usr/share/xournalpp/plugins/ColorCycle,/home/ehwazm/.config/xournalpp/plugins/SizeCycle"/>
   <property name="pluginDisabled" value=""/>
   <property name="strokeFilterIgnoreTime" value="150"/>
   <property name="strokeFilterIgnoreLength" value="1"/>
@@ -114,6 +123,9 @@
   <property name="inputSystemTPCButton" value="false"/>
   <property name="inputSystemDrawOutsideWindow" value="true"/>
   <property name="preferredLocale" value=""/>
+  <property name="useSpacesForTab" value="false"/>
+  <property name="numberOfSpacesForTab" value="4"/>
+  <property name="laserPointerFadeOutTime" value="500"/>
   <property name="stabilizerAveragingMethod" value="0"/>
   <property name="stabilizerPreprocessor" value="0"/>
   <property name="stabilizerBuffersize" value="20"/>
@@ -123,6 +135,7 @@
   <property name="stabilizerMass" value="5"/>
   <property name="stabilizerCuspDetection" value="true"/>
   <property name="stabilizerFinalizeStroke" value="true"/>
+  <property name="colorPalette" value="/usr/share/xournalpp/palettes/xournal.gpl"/>
   <property name="latexSettings.autoCheckDependencies" value="true"/>
   <property name="latexSettings.defaultText" value="x^2"/>
   <property name="latexSettings.globalTemplatePath" value="/usr/share/xournalpp/resources/default_template.tex"/>
@@ -134,18 +147,26 @@
   <property name="latexSettings.sourceViewAutoIndent" value="true"/>
   <property name="latexSettings.sourceViewSyntaxHighlight" value="true"/>
   <property name="latexSettings.sourceViewShowLineNumbers" value="false"/>
+  <property name="latexSettings.useExternalEditor" value="false"/>
+  <property name="latexSettings.externalEditorAutoConfirm" value="false"/>
+  <property name="latexSettings.externalEditorCmd" value=""/>
+  <property name="latexSettings.temporaryFileExt" value="tex"/>
   <property name="font" font="Sans" size="12"/>
   <data name="buttonConfig">
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="size" type="string" value="veryThin"/>
+      <attribute name="strokeType" type="string" value="none"/>
       <attribute name="tool" type="string" value="pen"/>
     </data>
     <data name="eraser">
       <attribute name="eraserMode" type="string" value="none"/>
       <attribute name="size" type="string" value="none"/>
       <attribute name="tool" type="string" value="eraser"/>
+    </data>
+    <data name="left">
+      <attribute name="tool" type="string" value="none"/>
     </data>
     <data name="middle">
       <attribute name="tool" type="string" value="selectRect"/>
@@ -191,7 +212,7 @@
   </data>
   <data name="lastUsedPageBgColor"/>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="selectRect"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -213,14 +234,14 @@
     <data name="eraser">
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="size" type="string" value="THIN"/>
-      <attribute name="type" type="string" value="default"/>
+      <attribute name="type" type="string" value="deleteStroke"/>
     </data>
     <data name="hand">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
       <attribute name="color" type="hex" value="000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
       <attribute name="size" type="string" value="BIG"/>
@@ -228,11 +249,21 @@
     <data name="image">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
+    <data name="laserPointerHighlighter">
+      <attribute name="color" type="hex" value="ffff0000"/>
+      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
+    </data>
+    <data name="laserPointerPen">
+      <attribute name="color" type="hex" value="ffff0000"/>
+      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
+    </data>
     <data name="pen">
       <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
-      <attribute name="fillAlpha" type="int" value="255"/>
+      <attribute name="fillAlpha" type="int" value="51"/>
       <attribute name="size" type="string" value="VERY_FINE"/>
       <attribute name="style" type="string" value="plain"/>
     </data>

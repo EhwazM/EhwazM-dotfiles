@@ -1,0 +1,97 @@
+# Dialogs
+windowrule=float,title:^(Open File)(.*)$
+windowrule=float,title:^(Select a File)(.*)$
+windowrule=float,title:^(Choose wallpaper)(.*)$
+windowrule=float,title:^(Open Folder)(.*)$
+windowrule=float,title:^(Save As)(.*)$
+windowrule=float,title:^(Library)(.*)$
+
+# Ignore maximize requests from apps. You'll probably like this.
+windowrulev2 = suppressevent maximize, class:.*
+
+# Fix some dragging issues with XWayland
+windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
+
+# btop
+windowrulev2 = float, class:^(Alacritty)$, title:^(btop)$
+windowrulev2 = size 80% 80%, class:^(Alacritty)$, title:^(btop)$
+windowrulev2 = center, class:^(Alacritty)$, title:^(btop)$
+
+# calc
+windowrulev2 = float, class:^(Alacritty)$, title:^(calc)$
+windowrulev2 = size 45% 45%, class:^(Alacritty)$, title:^(calc)$
+windowrulev2 = move 53% 10%, class:^(Alacritty)$, title:^(calc)$
+
+# Qalculate
+windowrulev2 = float, class:^(io.github.Qalculate.qalculate-qt)$
+windowrulev2 = size 55% 60%, class:^(io.github.Qalculate.qalculate-qt)$
+# windowrulev2 = move 53% 10%, class:^(io.github.Qalculate.qalculate-qt)$
+
+# Pavucontrol
+windowrulev2 = float, class:^(org.pulseaudio.pavucontrol)$
+windowrulev2 = size 36% 75%, class:^(org.pulseaudio.pavucontrol)$
+windowrulev2 = move 57% 6%, class:^(org.pulseaudio.pavucontrol)$
+
+# Blueman
+windowrulev2 = float, class:^(blueman-manager)$
+windowrulev2 = size 40% 75%, class:^(blueman-manager)$
+windowrulev2 = move 58% 6%, class:^(blueman-manager)$
+
+# # python-matplotlib
+# windowrulev2 = float, class^(python3)$, title:^(Figure 1)$
+# windowrulev2 = size 33% 45%, class:^(python3)$ title:^(Figure 1)$
+# windowrulev2 = center, class:^(python3)$, title:^(Figure 1)$
+#
+# #python-matplotlib 2
+# windowrulev2 = float, class^(Matplotlib)$, title:^(Figure 1)$
+# windowrulev2 = size 21)$
+
+# Calcure (calendar)
+windowrulev2 = float, class:^(Alacritty)$, title:^(calcure)$
+windowrulev2 = size 70% 70%, class:^(Alacritty)$, title:^(calcure)$
+windowrulev2 = center, class:^(Alacritty)$, title:^(calcure)$
+
+# Blender
+windowrulev2 = float, class:^(blender)$, title:^(Blender Preferences)$
+windowrulev2 = size 65% 75%, class:^(blender)$, title:^(Blender Preferences)$
+windowrulev2 = center, class:^(blender)$, title:^(Blender Preferences)$
+
+# Picture-in-Picture
+windowrulev2 = float, title:^(Picture-in-Picture)$
+windowrulev2 = size 50% 50%, title:(Picture-in-Picture)
+
+# Firefox
+windowrulev2 = float, class:^(firefox)$, title:^(Library)$
+windowrulev2 = size 65% 75%, class:^(firefox)$, title:^(Library)$
+windowrulev2 = center, class:^(firefox)$, title:^(Library)$
+
+windowrulev2 = float, class:^(firefox)$, title:^(Vortal Hermesoft 2.1 — Mozilla Firefox)$
+windowrulev2 = size 75% 88%, class:^(firefox)$, title:^(Vortal Hermesoft 2.1 — Mozilla Firefox)$
+windowrulev2 = center, class:^(firefox)$, title:^(Vortal Hermesoft 2.1 — Mozilla Firefox)$
+
+windowrulev2 = float, class:^(firefox)$, title:^(Academic - Academusoft 4.0 — Mozilla Firefox)$
+windowrulev2 = size 75% 88%, class:^(firefox)$, title:^(Academic - Academusoft 4.0 — Mozilla Firefox)$
+windowrulev2 = center, class:^(firefox)$, title:^(Academic - Academusoft 4.0 — Mozilla Firefox)$
+
+# Steam
+windowrulev2 = stayfocused, title:^()$,class:^(steam)$
+windowrulev2 = minsize 1 1, title:^()$,class:^(steam)$
+
+# Prism-Launcher
+windowrulev2 = float, class:^(org.prismlauncher.PrismLauncher)$, title:^(Console window for 1.20.6 — Prism Launcher 8.3)$
+windowrulev2 = size 80% 80%, class:^(org.prismlauncher.PrismLauncher)$, title:^(Console window for 1.20.6 — Prism Launcher 8.3)$
+windowrulev2 = center, class:^(org.prismlauncher.PrismLauncher)$, title:^(Console window for 1.20.6 — Prism Launcher 8.3)$
+
+# BLender
+windowrulev2 = float, class:^(blender)$, title:^(Blender Preferences)$
+windowrulev2 = size 65% 75%, class:^(blender)$, title:^(Blender Preferences)$
+windowrulev2 = center, class:^(blender)$, title:^(Blender Preferences)$
+
+# Github desktop
+windowrulev2 = float, class:^(GitHub Desktop)$
+windowrulev2 = size 80% 85%, class:^(GitHub Desktop)$
+windowrulev2 = center, class:^(GitHub Desktop)$
+
+# Fix for hyprshot
+layerrule = noanim, hyprpicker
+layerrule = noanim, selection

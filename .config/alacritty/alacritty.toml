@@ -1,7 +1,3 @@
-# import = [
-#     "/home/kai/.alacritty-colorscheme/themes/tokyonight_night.toml",
-# ]
-
 [colors]
 indexed_colors = [
     { color = "#FAB387", index = 16 },
@@ -9,14 +5,14 @@ indexed_colors = [
 ]
 
 [colors.bright]
-black = "#5A5A5A"
-blue = "#97A4F7"
-cyan = "#68F2E0"
-green = "#6CE05C"
-magenta = "#C495F0"
-red = "#F01578"
-white = "#FFFFFF"
-yellow = "#F3F79E"
+black = "#5D5D5D"
+blue = "#0071FF"
+cyan = "#4BB8FD"
+green = "#7BC91F"
+magenta = "#FF1D62"
+red = "#FF361E"
+white = "#A020F0"
+yellow = "#FFD00A"
 
 [colors.cursor]
 cursor = "#F5E0DC"
@@ -33,20 +29,20 @@ white = "#BAC2DE"
 yellow = "#F9E2AF"
 
 [colors.normal]
-black = "#4D4D4D"
-blue = "#3449D1"
-cyan = "#0798AB"
-green = "#1FB242"
-magenta = "#8400FF"
-red = "#C70031"
-white = "#E2D1E3"
-yellow = "#D8E30E"
+black = "#303030"
+blue = "#004F9E"
+cyan = "#2AA7E7"
+green = "#6AB017"
+magenta = "#EC0048"
+red = "#E1321A"
+white = "#F2F2F2"
+yellow = "#FFC005"
 
 [colors.primary]
-background = "#131925"
+background = "#101010"
 bright_foreground = "#CDD6F4"
 dim_foreground = "#CDD6F4"
-foreground = "#F7F7F7"
+foreground = "#F2F2F2"
 
 [font]
 size = 9
@@ -76,6 +72,6 @@ shape = "Beam"
 blinking = "Never"
 
 [window]
-opacity = 0.50
+opacity = 0.7
 decorations = "None"
 dynamic_title = true
