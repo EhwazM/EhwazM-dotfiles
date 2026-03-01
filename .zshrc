@@ -82,6 +82,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source /opt/Xilinx/Vivado/*/settings64.sh
 
 # User configuration
 
@@ -110,3 +111,10 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias nv="nvim"
   alias updtall="paru -Syu --noconfirm && paru -Scc && sudo chown -R $(whoami) /opt/visual-studio-code/resources/app/out/vs/workbench && pacman -Qtdq | xargs -r sudo pacman -Rns --noconfirm"
+
+iverun(){
+    local input="$1"
+    iverilog -o "${input}vp" "$input" && vvp "${input}vp"
+}
+
+. "$HOME/.local/bin/env"
