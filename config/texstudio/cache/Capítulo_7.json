@@ -1,0 +1,91 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Expo de cap 7 - HEF/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Expo de cap 7 - HEF/Capítulo_7.tex",
+    "labels": [
+    ],
+    "modified": "Thu May 14 02:20:44 2026",
+    "packages": [
+        "spanish, es-tabla#babel",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "T1#fontenc",
+        "utf8#inputenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introducción#83",
+        "2#Método científico - René Descartes y Francis Bacon#86",
+        "3#René Descartes y sus plagios/inspiraciones#91",
+        "3#Pensamientos de René Descartes#100",
+        "2#Biografía de Newton#164",
+        "3#Aportes a la Mecánica#171",
+        "3#Aportes a la Óptica#172",
+        "3#Relaciones con Gottfried Wilhelm Leibniz#173",
+        "3#Braquistocrona#174",
+        "3#Greenwich#175",
+        "3#La casa de la Moneda#176",
+        "3#La hermosa Catherine#177",
+        "3#Newton cae en la locura#178",
+        "3#Religión en la vida de Newton#179"
+    ],
+    "usercommands": [
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ]
+    ]
+}

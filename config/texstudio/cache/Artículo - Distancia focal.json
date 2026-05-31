@@ -1,0 +1,132 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Artículo - Distancia focal/Referencias.bib#Referencias.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Artículo - Distancia focal/Artículo - Distancia focal.tex",
+    "labels": [
+        "fig:Interface",
+        "eq:Abbe",
+        "eq:Bessel",
+        "eq:dEquation",
+        "tb:AbbeData",
+        "eq:focal",
+        "eq:pEquation",
+        "eq:ZDefinition",
+        "fig:BesselCode",
+        "fig:AbbeCode",
+        "eq:qEquation",
+        "fig:Relation",
+        "eq:ZEquation",
+        "fig:Convergent"
+    ],
+    "modified": "Wed Apr 30 18:51:26 2025",
+    "packages": [
+        "utf8#inputenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "T1#fontenc",
+        "left = 2.5cm, right = 2.5cm, top = 2.4cm, bottom = 2.4cm, headheight = 70pt#geometry",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "spanish, es-tabla#babel",
+        "#fancyhdr",
+        "#textcomp",
+        "#textcomp",
+        "#subcaption",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#graphicx",
+        "#float",
+        "#csquotes",
+        "#cancel",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "backend = biber, style = numeric, sorting = none#biblatex"
+    ],
+    "refs": [
+        "eq:dEquation",
+        "eq:focal",
+        "eq:ZEquation",
+        "eq:qEquation",
+        "eq:pEquation",
+        "eq:focal",
+        "eq:qEquation",
+        "eq:pEquation",
+        "eq:ZDefinition",
+        "eq:focal",
+        "eq:Bessel",
+        "fig:Relation",
+        "fig:Convergent"
+    ],
+    "toc": [
+        "2#Resumen#49",
+        "2#Abstract#60",
+        "2#\\textbf{Objetivos}#72",
+        "3#Objetivo principal#75",
+        "3#Objetivos secundarios#80",
+        "2#Introducción#91",
+        "2#Marco teórico#98",
+        "3#Distancia focal#101",
+        "3#Método de Abbe#120",
+        "3#Método de Bessel#162",
+        "3#Unity#181",
+        "2#Características#188",
+        "3#Guías#192",
+        "3#Interfaz#196",
+        "3#Luz#218",
+        "3#Sistema#221",
+        "4#Abbe#224",
+        "4#Bessel#245",
+        "2#Resultados#266",
+        "3#Método de Abbe#268",
+        "3#Método de Bessel#307",
+        "2#Discusión#327",
+        "2#Conclusión#332"
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\vqty{20cm - 44.8cm}"
+        ],
+        [
+            "",
+            "\\vqty{90cm - 44.8cm}"
+        ],
+        [
+            "",
+            "\\vqty{45.2cm - 24.8cm}"
+        ],
+        [
+            "",
+            "\\vqty{a' - a}"
+        ],
+        [
+            "",
+            "\\vqty{90cm - 65.3cm}"
+        ],
+        [
+            "",
+            "\\vqty{(70cm)^{2} - (20.4cm)^{2}}"
+        ],
+        [
+            "",
+            "\\vqty{20cm - 65.3cm}"
+        ],
+        [
+            "",
+            "\\vqty{a - a'}"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ]
+    ]
+}

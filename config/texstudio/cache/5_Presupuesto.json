@@ -1,0 +1,31 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Proyecto_TG_Fisica_UA_Nov2023/sections/5_Presupuesto.tex",
+    "labels": [
+        "tab_presupuestoViajes",
+        "tab_presupuestoSalidasCampo",
+        "tab_presupuestoGlobal",
+        "tab_presupuestoSoftware",
+        "tab_presupuestoEquipos",
+        "tab_presupuestoServTecnicos",
+        "tab_presupuestoBibliografia",
+        "tab_presupuestoPersonal",
+        "sec:presupuesto",
+        "tab_presupuestoMateriales"
+    ],
+    "modified": "Mon Nov 20 01:43:58 2023",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Presupuesto#0"
+    ],
+    "usercommands": [
+    ]
+}

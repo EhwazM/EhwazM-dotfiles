@@ -1,0 +1,553 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Trabajo de Grado/References.bib#References.bib"
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Trabajo de Grado/glossary.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
+    "labels": [
+        "fig:red_pitaya_versions",
+        "eq:in_phase",
+        "eq:quad",
+        "fig:stemlab_125-14_parts",
+        "fig:red_pitaya_board"
+    ],
+    "modified": "Sun May 31 08:35:52 2026",
+    "packages": [
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "backend = biber, style = apa, sorting = none#biblatex",
+        "acronym, nonumberlist#glossaries",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#setspace",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#caption",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "utf8#inputenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "T1#fontenc",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "spanish, es-tabla#babel"
+    ],
+    "refs": [
+        "fig:stemlab_125-14_parts",
+        "",
+        "fig:red_pitaya_board"
+    ],
+    "toc": [
+        "-1#glossary.tex#26",
+        "2#Resumen#134",
+        "2#Abstract#148",
+        "2#Introducción#184",
+        "2#MARCO TEÓRICO#238",
+        "3#Fundamentos de procesamiento de señales#273",
+        "4#Señales analógicas y digitales#279",
+        "4#Muestreo y cuantización#287",
+        "4#Técnicas de filtrado digital#314",
+        "5#Filtrado digital#330",
+        "5#FIR e IIR#331",
+        "5#Moving Average#332",
+        "3#Sistemas de adquisición de datos#334",
+        "4#Conversión analógica-digital (ADC)#338",
+        "4#Conversión digital-analógica (DAC)#344",
+        "4#Sincronización y temporización#350",
+        "3#Amplificador lock-in#358",
+        "4#Lock-in amplifier en fase (In-Phase)#366",
+        "4#Lock-in Amplifier en fase y en cuadratura (In-Phase \\& Quadrature)#420",
+        "3#Plataformas de instrumentación programable#449",
+        "4#Arquitectura FPGA#455",
+        "4#Sistemas embebidos y SoC#467",
+        "3#Arquitectura de la Red Pitaya#477",
+        "4#Componentes de hardware#493",
+        "5#Entradas y salidas analógicas (ADC/DAC)#505",
+        "5#Puertos de expansión GPIO y E2#507",
+        "5#Puerto de red y conectividad#509",
+        "5#Sincronización y relojes externos#511",
+        "4#Interfaces de comunicación y control#514",
+        "3#Lenguajes de descripción de hardware#527",
+        "4#VHDL o Verilog#531",
+        "4#Implementación a FPGA#539",
+        "2#METODOLOGÍA#553",
+        "3#Análisis de herramientas - Software y Hardware#559",
+        "4#Estudio de tarjeta de desarrollo Red Pitaya#565",
+        "4#Selección de herramientas de software#571",
+        "3#Diseño de partes funcionales de la aplicación#585",
+        "4#Sistema de adquisición de datos#589",
+        "4#Modulo de amplificador Lock-In#599",
+        "3#Implementación#619",
+        "4#Desarrollo en software (Python) - Módulos gráficos Y Osciloscopio#621",
+        "4#Desarrollo en hardware (FPGA/HDL) - Amplifcador Lock-In#622",
+        "3#Validación experimental#624",
+        "4#Configuración de pruebas#626",
+        "4#Adquisición de datos#627",
+        "4#Criterios de evaluación#628",
+        "2#RESULTADOS#634",
+        "3#Resultados del sistema implementado#636",
+        "4#Visualización de señales#638",
+        "4#Procesamiento en tiempo real#639",
+        "3#Análisis#641",
+        "4#Desempeño del sistema#643",
+        "4#Precisión y ruido#644",
+        "3#Discusión#646",
+        "4#Comparación con equipos comerciales#648",
+        "4#Limitaciones del sistema#649",
+        "4#Ventajas de la solución propuesta#650",
+        "2#CONCLUSIONES#656",
+        "2#BIBLIOGRAFÍA#661",
+        "2#ANEXOS#667"
+    ],
+    "usercommands": [
+        [
+            "\\glossaryname",
+            "\\glossaryname"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{Q}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\phi_{s} + \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s} + \\omega_{r}}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\phi_{s} - \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s} - \\omega_{r}}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\pqty{\\omega_{s} - \\omega_{r}}t + \\pqty{\\phi_{s} - \\phi_{r}}) - \\cos(\\pqty{\\omega_{s} + \\omega_{r}}t + \\pqty{\\phi_{s} + \\phi_{r}}) }"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{A_{r}\\sin(\\omega_{r}t + \\phi_{r})}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{A_{s}\\sin(\\omega_{s}t + \\phi_{s}) + n(t)}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{A_{s}A_{r}}"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\listfigurename",
+            "\\listfigurename"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{r}t + \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s}t + \\phi_{s}}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{r}t + \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s}t + \\phi_{s}}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\pqty{\\omega_{s}t + \\phi_{s}} - \\pqty{\\omega_{r}t + \\phi_{r}}) -\\cos(\\pqty{\\omega_{s}t + \\phi_{s}} + \\pqty{\\omega_{r}t + \\phi_{r}})}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\phi_{rel}) - \\cos(2\\omega t + \\phi_{hf})}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "\\listtablename",
+            "\\listtablename"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "",
+            "\\phi_r"
+        ],
+        [
+            "",
+            "\\cancel{n(t)\\sin(\\omega t+\\phi_r)}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\cancel{\\cos(2\\omega t+\\phi_{hf})}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\phi_{rel}) - \\cancel{\\cos(2\\omega t+\\phi_{hf})}}"
+        ],
+        [
+            "",
+            "\\bqty{\\frac{A_{s}A_{r}}{2}\\bqty{\\cos(\\phi_{rel}) - \\cancel{\\cos(2\\omega t+\\phi_{hf})}}+\\cancel{n(t)\\sin(\\omega t+\\phi_r)}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\lim_{T \\rightarrow \\infty}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\lim_{T \\rightarrow \\infty}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\lim_{T \\rightarrow \\infty}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ]
+    ]
+}

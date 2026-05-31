@@ -1,0 +1,34 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Proyecto_TG_Fisica_UA_Nov2023/sections/3_Descripcion.tex",
+    "labels": [
+        "fig_logoPNG",
+        "sec:descripcion",
+        "tab_Ejemplo",
+        "fig_logoPDF"
+    ],
+    "modified": "Mon Nov 20 01:43:58 2023",
+    "packages": [
+    ],
+    "refs": [
+        "tab_Ejemplo",
+        "sec:presupuesto",
+        "sec:resultados"
+    ],
+    "toc": [
+        "2#DESCRIPCIÓN DEL PROYECTO#0",
+        "3#Planteamiento de la pregunta o problema de investigación y su justificación en términos de necesidades y pertinencia; marco teórico y estado del arte \\textcolor{blue}{(máximo 3000 palabras)}#3",
+        "3#Ejemplos de figuras#6",
+        "3#Ejemplos de Tablas#22",
+        "3#Los objetivos \\textcolor{blue}{(máximo 500 palabras)}#34",
+        "3#Metodología Propuesta \\textcolor{blue}{(máximo 3000 palabras)}#37",
+        "3#Cronograma de Actividades#40"
+    ],
+    "usercommands": [
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/usr/share/xournalpp/resources/default_template.tex",
+    "labels": [
+    ],
+    "modified": "Fri May 9 05:21:12 2025",
+    "packages": [
+        "#amssymb",
+        "#scontents",
+        "#xcolor",
+        "#amsmath",
+        "varwidth=0.999\\maxdimen, crop, border=5pt#class-standalone",
+        "varwidth=0.999\\maxdimen, crop, border=5pt#latex-document",
+        "varwidth=0.999\\maxdimen, crop, border=5pt#tex",
+        "#ifthen"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\pheight",
+            "\\pheight"
+        ],
+        [
+            "\\setTextWidthReference",
+            "\\setTextWidthReference"
+        ],
+        [
+            "",
+            "%color%xpp_font_color"
+        ]
+    ]
+}

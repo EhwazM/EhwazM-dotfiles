@@ -1,0 +1,134 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Simple_Hipster_CV/simplehipstercv.sty",
+    "labels": [
+    ],
+    "modified": "Mon May 25 12:46:30 2026",
+    "packages": [
+        "#tikzlibraryfadings",
+        "#tikzlibrarypatterns",
+        "#tikzlibrarydecorations",
+        "#paracol",
+        "#tikzlibrarybackgrounds",
+        "#tikzlibrarycalc",
+        "#titlesec",
+        "#tikzlibrarydecorations.text",
+        "#ifthen",
+        "#tikzlibrarytopaths",
+        "#tikzlibraryarrows",
+        "#float",
+        "#tikzlibraryshapes.geometric",
+        "#tikz-3dplot",
+        "#graphicx",
+        "#smartdiagram",
+        "T1#fontenc",
+        "#array",
+        "#tikzlibraryshapes",
+        "#tikz",
+        "#fontawesome",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "#tikzlibraryer",
+        "#tikzlibrarycalendar",
+        "#tikzlibraryshadings",
+        "#tikzlibrarypositioning",
+        "#tikzlibraryshapes.misc",
+        "#smartdiagram",
+        "#tikzlibraryarrows.meta"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\icon",
+            "\\icon{}{}{}"
+        ],
+        [
+            "\\hobbyicon",
+            "\\hobbyicon{}{}{}{}{}"
+        ],
+        [
+            "\\cvdegree",
+            "\\cvdegree{}{}{}{}{}{}"
+        ],
+        [
+            "\\cvevent",
+            "\\cvevent{}{}{}{}{}{}"
+        ],
+        [
+            "\\squarepic",
+            "\\squarepic{}"
+        ],
+        [
+            "\\bubblediagram",
+            "\\bubblediagram{}"
+        ],
+        [
+            "\\cvkeyword",
+            "\\cvkeyword{}{}{}"
+        ],
+        [
+            "\\dashrule",
+            "\\dashrule{}{}"
+        ],
+        [
+            "\\bgupper",
+            "\\bgupper{}{}{}"
+        ],
+        [
+            "\\cvtag",
+            "\\cvtag{}"
+        ],
+        [
+            "\\simpleheader",
+            "\\simpleheader{}{}{}{}{}"
+        ],
+        [
+            "\\event",
+            "\\event{}{}{}{}{}"
+        ],
+        [
+            "\\lorem",
+            "\\lorem"
+        ],
+        [
+            "\\bg",
+            "\\bg{}{}{}"
+        ],
+        [
+            "\\iconcross",
+            "\\iconcross{}{}{}{}{}{}{}"
+        ],
+        [
+            "\\barrule",
+            "\\barrule{}{}{}"
+        ],
+        [
+            "\\infobubble",
+            "\\infobubble{}{}{}{}"
+        ],
+        [
+            "\\dotrule",
+            "\\dotrule{}{}"
+        ],
+        [
+            "\\roundpic",
+            "\\roundpic{}"
+        ],
+        [
+            "\\skillbubble",
+            "\\skillbubble{}{}"
+        ],
+        [
+            "\\pictofraction",
+            "\\pictofraction{}{}{}{}{}{}"
+        ]
+    ]
+}

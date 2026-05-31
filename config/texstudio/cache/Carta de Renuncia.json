@@ -1,0 +1,56 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Carta de Renuncia/Carta de Renuncia.tex",
+    "labels": [
+        "fig:firma1"
+    ],
+    "modified": "Tue Jan 20 14:04:02 2026",
+    "packages": [
+        "T1#fontenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "spanish, es-tabla#babel",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "utf8#inputenc"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\margin",
+            "\\margin"
+        ]
+    ]
+}

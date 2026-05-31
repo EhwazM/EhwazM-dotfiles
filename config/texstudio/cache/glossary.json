@@ -1,0 +1,32 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Template/glossary.tex",
+    "labels": [
+    ],
+    "modified": "Sun May 31 10:44:10 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "",
+            "%gls-label%lia"
+        ],
+        [
+            "",
+            "%gls-label%adc"
+        ],
+        [
+            "",
+            "%gls-label%snr"
+        ]
+    ]
+}

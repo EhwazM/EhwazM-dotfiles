@@ -1,0 +1,62 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/ICETOL/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Trabajos - Pagos/Trabajos.tex",
+    "labels": [
+    ],
+    "modified": "Sun Nov 30 16:17:53 2025",
+    "packages": [
+        "utf8#inputenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "left = 1.5cm, right = 1.5cm, top = 1.5cm, bottom = 1.5cm, headheight = 70pt#geometry",
+        "spanish, es-tabla#babel",
+        "#xcolor",
+        "#textcomp",
+        "#tasks",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "T1#fontenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Preguntas#26",
+        "2#Desarrollo#114"
+    ],
+    "usercommands": [
+        [
+            "\\error",
+            "\\error{}"
+        ],
+        [
+            "\\correcto",
+            "\\correcto{}"
+        ]
+    ]
+}

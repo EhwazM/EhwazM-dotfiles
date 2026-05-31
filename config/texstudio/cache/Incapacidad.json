@@ -1,0 +1,57 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Incapacidad/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Incapacidad/Incapacidad.tex",
+    "labels": [
+    ],
+    "modified": "Thu May 14 01:25:36 2026",
+    "packages": [
+        "T1#fontenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "utf8#inputenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "english#babel"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\margin",
+            "\\margin"
+        ]
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Exposición FES/Slides/slides.tex",
+    "labels": [
+    ],
+    "modified": "Mon Jan 26 13:10:14 2026",
+    "packages": [
+        "#siunitx",
+        "#amssymb",
+        "10pt#class-beamer",
+        "10pt#latex-document",
+        "10pt#tex",
+        "english#babel",
+        "utf8#inputenc",
+        "#xcolor",
+        "#amsmath",
+        "#physics",
+        "#graphicx",
+        "#beamerthemeMadrid",
+        "#beamercolorthemedefault",
+        "T1#fontenc"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "",
+            "\\sum_G"
+        ],
+        [
+            "",
+            "\\mathbb{Z}"
+        ],
+        [
+            "",
+            "\\lambda_k"
+        ],
+        [
+            "",
+            "\\lambda_{k-G}"
+        ],
+        [
+            "",
+            "\\lambda_k"
+        ],
+        [
+            "",
+            "\\lambda_{k-G}"
+        ],
+        [
+            "",
+            "\\lambda_k"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "",
+            "\\epsilon_\\pm"
+        ],
+        [
+            "",
+            "\\lambda_k"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\lambda_k"
+        ],
+        [
+            "",
+            "\\lambda_{k-G}"
+        ]
+    ]
+}

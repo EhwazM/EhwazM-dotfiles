@@ -1,0 +1,110 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Template/references.bib#references.bib"
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Template/glossary.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Template/template.tex",
+    "labels": [
+    ],
+    "modified": "Sun May 31 08:35:52 2026",
+    "packages": [
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "english#babel",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "utf8#inputenc",
+        "T1#fontenc",
+        "acronym, nonumberlist#glossaries",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#setspace",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#caption",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "-1#glossary.tex#26",
+        "2#Resumen#95",
+        "2#Abstract#109",
+        "2#\\textbf{Objetivos}#122",
+        "3#Objetivo principal#125",
+        "3#Objetivos secundarios#130",
+        "2#Introducción#166",
+        "2#Marco teórico#169",
+        "2#Metodología#172",
+        "2#Análisis de datos - error#175",
+        "2#Discusión#178",
+        "2#Conclusiones#181",
+        "2#BIBLIOGRAFÍA#187"
+    ],
+    "usercommands": [
+        [
+            "\\listfigurename",
+            "\\listfigurename"
+        ],
+        [
+            "\\listtablename",
+            "\\listtablename"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\glossaryname",
+            "\\glossaryname"
+        ]
+    ]
+}

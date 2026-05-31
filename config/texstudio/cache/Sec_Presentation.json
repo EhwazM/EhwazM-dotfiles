@@ -1,0 +1,82 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Presentación 2 de proyecto/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Presentación 2 de proyecto/Sec_Presentation.tex",
+    "labels": [
+    ],
+    "modified": "Tue Sep 16 23:57:07 2025",
+    "packages": [
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "T1#fontenc",
+        "utf8#inputenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "spanish, es-tabla#babel"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#\\textbf{Objetivos}#104",
+        "3#Objetivo principal#107",
+        "3#Objetivos secundarios#112",
+        "2#Pregunta o problema a investigar#129",
+        "3#Planteamiento de la pregunta#130",
+        "3#Justificación#133",
+        "2#Estado del arte (Primera revisión)#142"
+    ],
+    "usercommands": [
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ]
+    ]
+}

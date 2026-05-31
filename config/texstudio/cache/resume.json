@@ -1,0 +1,41 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/education.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/extracurricular.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/experience.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/presentation.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/committees.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/honors.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/writing.tex",
+        "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume/summary.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Awesome_CV/resume.tex",
+    "labels": [
+    ],
+    "modified": "Sat Feb 7 11:04:08 2026",
+    "packages": [
+        "11pt, a4paper#awesome-cv"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "-1#resume/summary.tex#97",
+        "-1#resume/experience.tex#98",
+        "-1#resume/honors.tex#99",
+        "-1#resume/presentation.tex#100",
+        "-1#resume/writing.tex#101",
+        "-1#resume/committees.tex#102",
+        "-1#resume/education.tex#103",
+        "-1#resume/extracurricular.tex#104"
+    ],
+    "usercommands": [
+        [
+            "\\acvHeaderSocialSep",
+            "\\acvHeaderSocialSep"
+        ]
+    ]
+}

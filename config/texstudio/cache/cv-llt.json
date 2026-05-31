@@ -1,0 +1,44 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/misc.tex",
+        "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/referee.tex",
+        "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/employment.tex",
+        "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/education.tex",
+        "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/publications.tex",
+        "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/skills.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/A_Customised_CurVe_CV/cv-llt.tex",
+    "labels": [
+    ],
+    "modified": "Sat Feb 7 11:01:41 2026",
+    "packages": [
+        "varqu,varl,scale=0.9#zi4",
+        "a4paper,skipsamekey,11pt,english#class-curve",
+        "a4paper,skipsamekey,11pt,english#latex-document",
+        "a4paper,skipsamekey,11pt,english#tex",
+        "#cabin",
+        "T1#fontenc",
+        "p,osf,swashQ#cochineal",
+        "p,osf,swashQ#cochineal",
+        "medium,bold#cabin",
+        "#settings",
+        "#fontspec",
+        "varqu,varl,scale=0.9#zi4"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "-1#employment#96",
+        "-1#education#97",
+        "-1#publications#101",
+        "-1#skills#103",
+        "-1#misc#104",
+        "-1#referee#106"
+    ],
+    "usercommands": [
+    ]
+}

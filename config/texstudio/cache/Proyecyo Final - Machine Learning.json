@@ -1,0 +1,73 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Proyecyo Final - Machine Learning/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Proyecyo Final - Machine Learning/Proyecyo Final - Machine Learning.tex",
+    "labels": [
+        "tb:correlations",
+        "fig:correlations",
+        "fig:histograma",
+        "fig:roccurve",
+        "tab:classification_report",
+        "fig:confusionmatrix",
+        "fig:boxes"
+    ],
+    "modified": "Wed Jun 11 02:43:41 2025",
+    "packages": [
+        "left = 2cm, right = 2cm, top = 2cm, bottom = 2cm, headheight = 70pt#geometry",
+        "utf8#inputenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "#fancyhdr",
+        "#textcomp",
+        "#subcaption",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#graphicx",
+        "#float",
+        "#csquotes",
+        "#xcolor",
+        "#cancel",
+        "#booktabs",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "T1#fontenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "spanish, es-tabla#babel",
+        "#hyperref",
+        "#nameref"
+    ],
+    "refs": [
+        "tb:correlations",
+        "fig:histograma",
+        "fig:confusionmatrix",
+        "tab:classification_report",
+        "fig:correlations",
+        "fig:boxes",
+        "fig:roccurve"
+    ],
+    "toc": [
+        "2#Resumen#56",
+        "2#\\textbf{Objetivos}#68",
+        "3#Objetivo principal#71",
+        "3#Objetivos secundarios#76",
+        "2#Introducción#88",
+        "2#Metodología#99",
+        "2#Resultados#113",
+        "2#Conclusiones#210"
+    ],
+    "usercommands": [
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ]
+    ]
+}

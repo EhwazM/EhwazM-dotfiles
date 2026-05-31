@@ -1,0 +1,133 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Artíuclo - Sensor de Temperatura/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Artíuclo - Sensor de Temperatura/Temp_sensor.tex",
+    "labels": [
+        "fig:plot-water",
+        "fig:pcb",
+        "fig:sch"
+    ],
+    "modified": "Fri Nov 7 00:09:01 2025",
+    "packages": [
+        "utf8#inputenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "T1#fontenc",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "english#babel"
+    ],
+    "refs": [
+        "fig:plot-water",
+        "fig:sch",
+        "fig:pcb"
+    ],
+    "toc": [
+        "2#Abstract#87",
+        "2#Resumen#100",
+        "2#\\textbf{Objectives}#110",
+        "3#General Objective#113",
+        "3#Specific Objectives#118",
+        "2#Introduction#134",
+        "2#Theoretical Framework#145",
+        "3#Sensors#147",
+        "3#The DS18B20 temperature sensor#150",
+        "3#Microcontroller and communication protocol#180",
+        "2#Methodology#183",
+        "3#Materials, equipment and software#185",
+        "3#Schematic and PCB design#199",
+        "3#Breadboard Testing#209",
+        "3#PCB assembly#214",
+        "3#Circuit testing and data collection#225",
+        "3#Application#232",
+        "2#Taken Data and Error Analysis#240",
+        "3#Temperature vs. Time Behavior#241",
+        "3#Comparison with reference measurements#252",
+        "3#Uncertainty and error estimation#253",
+        "2#Discussion#255",
+        "2#Conclusions#263"
+    ],
+    "usercommands": [
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "",
+            "\\mathrm{C}"
+        ],
+        [
+            "",
+            "\\mathrm{mV}"
+        ],
+        [
+            "",
+            "\\mathrm{C}"
+        ],
+        [
+            "",
+            "\\mathrm{C}"
+        ],
+        [
+            "",
+            "\\mathrm{C}"
+        ],
+        [
+            "",
+            "\\mathrm{C}"
+        ],
+        [
+            "",
+            "\\mathrm{C}"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ]
+    ]
+}

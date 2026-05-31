@@ -1,0 +1,430 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Exposición FES/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Exposición FES/Exposición FES.tex",
+    "labels": [
+        "fig:boundary_trick",
+        "fig:wavector-rep",
+        "fig:plotting_solutions"
+    ],
+    "modified": "Sun Feb 1 15:06:06 2026",
+    "packages": [
+        "utf8#inputenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "english#babel",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "T1#fontenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Approximation to the boundary#139",
+        "3#Solutions of electron at boundary#144",
+        "3#Approximated solutions to an electron near the boundary#212",
+        "2#Effects on materials - Electrical conductivity#282",
+        "3#Numbers of orbitals in a band#285",
+        "3#Metal and Insulators#349"
+    ],
+    "usercommands": [
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda - \\epsilon}"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "",
+            "\\pqty{k}"
+        ],
+        [
+            "",
+            "\\pqty{k - G}"
+        ],
+        [
+            "",
+            "\\lambda_{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k - G} - \\epsilon}"
+        ],
+        [
+            "",
+            "\\pqty{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{k}"
+        ],
+        [
+            "",
+            "\\psi_{x}"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "",
+            "\\pqty{-\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\lambda_{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k - G} - \\epsilon}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k} - \\epsilon}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G - G}"
+        ],
+        [
+            "",
+            "\\pqty{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\lambda_{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{1 \\pm \\frac{2\\lambda}{U}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{4}G^{2}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "",
+            "\\pqty{1 \\pm \\frac{2\\lambda}{U}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\pm}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "",
+            "\\pqty{k - G}"
+        ],
+        [
+            "",
+            "\\sum_{G}"
+        ],
+        [
+            "",
+            "\\pqty{k}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k} - \\epsilon}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\mathbb{Z}"
+        ],
+        [
+            "",
+            "\\pqty{x}"
+        ],
+        [
+            "",
+            "\\pqty{1 + \\frac{x}{2}}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\lambda_{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k - G} + \\lambda_{k}}"
+        ],
+        [
+            "",
+            "\\bqty{\\frac{1}{4}\\pqty{\\lambda_{k - G} + \\lambda_{k}}^{2}+ U^{2}}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\lambda_{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k - G} + \\lambda_{k}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "",
+            "\\pqty{k - G}"
+        ],
+        [
+            "",
+            "\\pqty{k}"
+        ],
+        [
+            "",
+            "\\lambda_{k}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda_{k} - \\epsilon}"
+        ],
+        [
+            "",
+            "\\mathbf{k \\cdot p}"
+        ],
+        [
+            "",
+            "\\mathbf{r}"
+        ],
+        [
+            "",
+            "\\pqty{\\mathbf{r}}"
+        ],
+        [
+            "",
+            "\\mathbf{k}"
+        ],
+        [
+            "",
+            "\\mathbf{r}"
+        ],
+        [
+            "",
+            "\\pqty{\\mathbf{r}}"
+        ],
+        [
+            "",
+            "\\psi_{\\textbf{k}}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{-\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda - \\epsilon}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{\\hbar^{2}\\tilde{K}^{2}}{2m}}"
+        ],
+        [
+            "",
+            "\\bqty{4\\lambda\\pqty{\\frac{\\hbar^{2}\\tilde{K}^{2}}{2m}} + U^{2}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\pqty{\\tilde{K}^{2} + \\frac{1}{4}G^{2}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ],
+        [
+            "",
+            "\\pqty{-\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\pqty{\\lambda - \\epsilon}"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1}{2}G}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{\\hbar^{2}\\tilde{K}^{2}}{2m}}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{\\lambda}{U^{2}}}"
+        ],
+        [
+            "",
+            "\\bqty{1 + 2\\pqty{\\frac{\\lambda}{U^{2}}}\\pqty{\\frac{\\hbar^{2}\\tilde{K}^{2}}{2m}}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\pqty{\\tilde{K}^{2} + \\frac{1}{4}G^{2}}"
+        ],
+        [
+            "",
+            "\\tilde{K}"
+        ],
+        [
+            "",
+            "\\epsilon_{\\tilde{K}}"
+        ]
+    ]
+}

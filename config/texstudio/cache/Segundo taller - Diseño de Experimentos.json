@@ -1,0 +1,93 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Segundo taller - Diseño de Experimentos/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Segundo taller - Diseño de Experimentos/Segundo taller - Diseño de Experimentos.tex",
+    "labels": [
+        "fig:box_trat",
+        "tab:anova",
+        "tab:descriptivos",
+        "tab:tukeydiff"
+    ],
+    "modified": "Tue Oct 14 13:33:25 2025",
+    "packages": [
+        "spanish, es-tabla#babel",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "utf8#inputenc",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "T1#fontenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry"
+    ],
+    "refs": [
+        "tab:anova",
+        "tab:tukeydiff",
+        "tab:descriptivos"
+    ],
+    "toc": [
+        "2#Descripción del experimento#71",
+        "2#Construcción del diseño de un Cuadrado Latino 5×5#134",
+        "2#Ajuste del modelo ANOVA#137",
+        "2#Prueba de comparaciones múltiples (Tukey)#167",
+        "2#Análisis e interpretación de los diagramas de caja y bigote#222",
+        "2#Verificación de los supuestos#234",
+        "3#Normalidad de residuales (Shapiro–Wilk)#235",
+        "3#Homogeneidad de varianzas#238",
+        "3#Gráficos diagnósticos#241",
+        "2#Conclusiones#250"
+    ],
+    "usercommands": [
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ]
+    ]
+}

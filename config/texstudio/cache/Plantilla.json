@@ -1,0 +1,101 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Plantilla/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Plantilla/Plantilla.tex",
+    "labels": [
+    ],
+    "modified": "Wed May 20 12:02:14 2026",
+    "packages": [
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#setspace",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "T1#fontenc",
+        "english#babel",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "utf8#inputenc"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Resumen#86",
+        "2#Abstract#100",
+        "2#\\textbf{Objetivos}#113",
+        "3#Objetivo principal#116",
+        "3#Objetivos secundarios#121",
+        "2#Introducción#151",
+        "2#Marco teórico#154",
+        "2#Metodología#157",
+        "2#Análisis de datos - error#160",
+        "2#Discusión#163",
+        "2#Conclusiones#166"
+    ],
+    "usercommands": [
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\listtablename",
+            "\\listtablename"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\listfigurename",
+            "\\listfigurename"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ]
+    ]
+}

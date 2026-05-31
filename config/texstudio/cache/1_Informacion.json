@@ -1,0 +1,25 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Proyecto_TG_Fisica_UA_Nov2023/tables/draft_info.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Proyecto_TG_Fisica_UA_Nov2023/sections/1_Informacion.tex",
+    "labels": [
+        "tab:info",
+        "sec:informacion"
+    ],
+    "modified": "Tue Oct 21 12:54:01 2025",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#\\Large{\\bfseries INFORMACIÓN GENERAL DEL PROYECTO}#0",
+        "-1#tables/draft_info#8"
+    ],
+    "usercommands": [
+    ]
+}

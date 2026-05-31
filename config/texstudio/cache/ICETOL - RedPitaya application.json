@@ -1,0 +1,78 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/ICETOL/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/ICETOL/ICETOL - RedPitaya application.tex",
+    "labels": [
+    ],
+    "modified": "Sat Feb 21 20:45:01 2026",
+    "packages": [
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "utf8#inputenc",
+        "english#babel",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "T1#fontenc"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Abstract#79"
+    ],
+    "usercommands": [
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ]
+    ]
+}

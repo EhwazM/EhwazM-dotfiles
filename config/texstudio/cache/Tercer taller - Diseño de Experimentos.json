@@ -1,0 +1,100 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Tercer taller - Diseño de Experimentos/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Tercer taller - Diseño de Experimentos/Tercer taller - Diseño de Experimentos.tex",
+    "labels": [
+    ],
+    "modified": "Mon Oct 27 09:49:58 2025",
+    "packages": [
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "utf8#inputenc",
+        "T1#fontenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "spanish, es-tabla#babel",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "backend = biber, style = numeric, sorting = none#biblatex"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Experimento#71",
+        "2#Formulación del modelo#99",
+        "2#Hipótesis#117",
+        "2#Análisis estadístico#127",
+        "3#Tabla ANOVA#129",
+        "3#Comparaciones múltiples (Tukey HSD)#151",
+        "3#Diagnóstico de supuestos#180",
+        "2#Conclusión#216"
+    ],
+    "usercommands": [
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\arraystretch",
+            "\\arraystretch"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\arraystretch",
+            "\\arraystretch"
+        ],
+        [
+            "",
+            "\\varepsilon_{ijkl}"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "",
+            "\\varepsilon_{ijkl}"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ]
+    ]
+}

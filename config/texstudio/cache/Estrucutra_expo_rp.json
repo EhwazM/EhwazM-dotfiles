@@ -1,0 +1,133 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Estructura Expo/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Estructura Expo/Estrucutra_expo_rp.tex",
+    "labels": [
+    ],
+    "modified": "Tue Sep 9 02:39:40 2025",
+    "packages": [
+        "T1#fontenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "utf8#inputenc",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "spanish, es-tabla#babel",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "hidelinks#hyperref",
+        "hidelinks#nameref"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Resumen#78",
+        "2#\\textbf{Objetivos}#103",
+        "3#Objetivo principal#106",
+        "3#Objetivos secundarios#111",
+        "2#Introducción#130",
+        "5#Historia.#140",
+        "2#Especificaciones técnicas y cuidados#150",
+        "3#Características generales#151",
+        "3#Conectividad#161",
+        "3#Entradas y salidas RF#168",
+        "3#Conector de extensión#184",
+        "3#Variantes del modelo#199",
+        "2#Funcionamiento#213",
+        "3#Field Programmable Gate Array (FPGA)#216",
+        "5#Funcionamiento de una FPGA.#224",
+        "3#Adquisición y generación de señales#228",
+        "4#Conversores ADC y DAC#235",
+        "4#Generación de señales comunes (sinusoidal, cuadrada, triangular, rampa, \\dots)#238",
+        "4#Generación en barrido#241",
+        "4#Generación de señales arbitrarias#244",
+        "4#Buffer#247",
+        "5#Buffer en la adquisición de señales.#260",
+        "3#Control de Red Pitaya#264",
+        "4#Application Programming Interface (API)#266",
+        "4#Standard Commands for Programmable Instruments (SCPI)#291",
+        "4#Command-line#313",
+        "4#Uso preferente#326",
+        "3#General Purpose Input/Output (GPIO) pins#333",
+        "3#Aplicaciones pre-instaladas#345",
+        "4#Discrete Fourier Transform (DFT)#354",
+        "4#Análisis de Bode#370",
+        "2#Utilidades#386",
+        "3#Herramientas de software#388",
+        "3#Sincronización de varias Red Pitaya's#392",
+        "3#Shields y módulos para Red Pitaya#399",
+        "2#Campos de aplicación#408",
+        "3#Educación y enseñanza#410",
+        "3#Investigación científica#416",
+        "3#Control e instrumentación#423",
+        "3#Implementación de hardware y desarrollo#428",
+        "3#Radiofrecuencia y comunicaciones#434",
+        "2#Comparación con instrumentos similares#439",
+        "3#Microcontroladores (Arduino, ESP32)#441",
+        "3#Mini-PC's (Raspberry Pi)#450",
+        "3#Instrumentos especializados (Thorlabs, Tektronix, Keysight, \\dots)#459",
+        "3#Criterios de selección#468",
+        "2#Trabajo de grado#476",
+        "3#Generación y adquisición de señales#479",
+        "3#Interfaz gráfica#484",
+        "2#Conclusiones#489"
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\sum_{n=0}"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "",
+            "\\log_{10}"
+        ]
+    ]
+}

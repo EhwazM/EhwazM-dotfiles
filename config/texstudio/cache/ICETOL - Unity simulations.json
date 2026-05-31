@@ -1,0 +1,78 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/ICETOL/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/ICETOL/ICETOL - Unity simulations.tex",
+    "labels": [
+    ],
+    "modified": "Sat Feb 21 20:44:40 2026",
+    "packages": [
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "english#babel",
+        "utf8#inputenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "T1#fontenc",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Abstract#80"
+    ],
+    "usercommands": [
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ]
+    ]
+}

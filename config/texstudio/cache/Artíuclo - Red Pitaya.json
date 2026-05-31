@@ -1,0 +1,115 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Artículo - Red Pitaya/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Artículo - Red Pitaya/Artíuclo - Red Pitaya.tex",
+    "labels": [
+        "fig:red_pitaya_board",
+        "fig:red_pitaya_board_alt",
+        "fig:red_pitaya_board_hardware",
+        "fig:python_application",
+        "fig:aliasing_explanation"
+    ],
+    "modified": "Tue Jan 27 14:00:57 2026",
+    "packages": [
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "utf8#inputenc",
+        "T1#fontenc",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "spanish, es-tabla#babel",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "backend = biber, style = numeric, sorting = none#biblatex"
+    ],
+    "refs": [
+        "fig:red_pitaya_board_alt",
+        "fig:red_pitaya_board",
+        "fig:red_pitaya_board_hardware",
+        "fig:aliasing_explanation",
+        "fig:python_application"
+    ],
+    "toc": [
+        "2#Resumen#88",
+        "2#Abstract#102",
+        "2#\\textbf{Objetivos}#115",
+        "3#Objetivo principal#118",
+        "3#Objetivos secundarios#124",
+        "2#Introducción#151",
+        "2#\\textit{Red Pitaya }-  Una navaja suiza para ingenieros#164",
+        "3#Arquitectura y funcionamiento#195",
+        "3#Hardware#209",
+        "4#Entradas y salidas analógicas (ADC/DAC)#219",
+        "4#Puertos de expansión GPIO y E2#222",
+        "4#Puerto de red y conectividad#225",
+        "4#Sincronización y relojes externos#228",
+        "4#Interfaz y software#231",
+        "2#Metodología#243",
+        "3#Comunicación con Red Pitaya#246",
+        "3#Procesamiento de datos#254",
+        "3#Programación de la FPGA - VHDL y Verilog#267",
+        "3#Interfaz gráfica#270",
+        "2#Motivación y significancia#282",
+        "2#Descripción del Software#289",
+        "3#Osciloscopio / Generador de señales#290",
+        "3#Lock-in#292",
+        "2#Ejemplos ilustrativos#294",
+        "3#Osciloscopio / Generador de señales#295",
+        "3#Lock-in#296",
+        "2#Impacto#298",
+        "2#Conclusiones#300"
+    ],
+    "usercommands": [
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ]
+    ]
+}

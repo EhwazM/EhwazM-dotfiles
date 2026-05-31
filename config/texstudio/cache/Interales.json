@@ -1,0 +1,740 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Trabajos - Pagos/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Trabajos - Pagos/Interales.tex",
+    "labels": [
+        "fig:region",
+        "fig:region51",
+        "fig:region5"
+    ],
+    "modified": "Mon Oct 20 12:23:01 2025",
+    "packages": [
+        "spanish, es-tabla#babel",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "#xcolor",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "left = 2cm, right = 2cm, top = 2cm, bottom = 2cm, headheight = 70pt#geometry",
+        "utf8#inputenc",
+        "T1#fontenc"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Ejercicios Integrales dobles#18",
+        "2#Desarrollo#52"
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\int_{-\\sqrt{4 - x^{2}}}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{-\\sqrt{4 - x^{2}}}^{\\sqrt{4 - x^{2}}} \\dd{y}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\pqty{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\eval{y}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{y}_{-\\sqrt{4 - x^{2}}}^{\\sqrt{4 - x^{2}}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\bqty{\\bigg(\\frac{2}{2}\\cdot 0 + 2\\arcsin(1)\\bigg) - \\bigg(\\frac{-2}{2}\\cdot 0 + 2\\arcsin(-1)\\bigg)}"
+        ],
+        [
+            "",
+            "\\eval{x}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{x}_{-\\sqrt{4 - y^{2}}}^{\\sqrt{4 - y^{2}}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\cancel{2}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{1 + \\cos{2\\theta}}{\\cancel{2}}}"
+        ],
+        [
+            "",
+            "\\cancel{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\int_{u(0)}"
+        ],
+        [
+            "",
+            "\\bqty{\\frac{2y^{2}}{2} e^{-x}}"
+        ],
+        [
+            "",
+            "\\eval{\\bqty{\\frac{2y^{2}}{2} e^{-x}}}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\eval{e^{-x}}"
+        ],
+        [
+            "",
+            "\\pqty{1 - x}"
+        ],
+        [
+            "",
+            "\\bqty{\\pqty{1 - x}e^{-x}}"
+        ],
+        [
+            "",
+            "\\eval{\\bqty{\\pqty{1 - x}e^{-x}}}"
+        ],
+        [
+            "",
+            "\\bqty{2 - y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{(4 - y) - 2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{2 - y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\eval{y}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{y}_{0}^{4 - x}}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\eval{y}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{y}_{0}^{x}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\pqty{0 + 0}"
+        ],
+        [
+            "",
+            "\\cancel{\\frac{1}{2}\\sin{\\pi}}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{\\pi}{2} + \\cancel{\\frac{1}{2}\\sin{\\pi}}}"
+        ],
+        [
+            "",
+            "\\bqty{\\pqty{\\frac{\\pi}{2} + \\cancel{\\frac{1}{2}\\sin{\\pi}}} - \\pqty{0 + 0}}"
+        ],
+        [
+            "",
+            "\\int_{-\\sqrt{4 - y^{2}}}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{-\\sqrt{4 - y^{2}}}^{\\sqrt{4 - y^{2}}} \\dd{x}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{1}^{\\sqrt{x}} 2y e^{-x} \\dd{y}}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\cancel{2}"
+        ],
+        [
+            "",
+            "\\eval{\\frac{1}{3/\\cancel{2}} u^{\\frac{3}{2}}}"
+        ],
+        [
+            "",
+            "\\cancel{2}"
+        ],
+        [
+            "",
+            "\\pqty{1 - x}"
+        ],
+        [
+            "",
+            "\\bqty{\\pqty{1 - x}e^{-x} - e^{-x}}"
+        ],
+        [
+            "",
+            "\\eval{\\bqty{\\pqty{1 - x}e^{-x} - e^{-x}}}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{(2\\cos{\\theta})^{2}}{2} - 0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\eval{\\frac{r^{2}}{2}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{2\\sqrt{4 - y^{2}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\pqty{x - 1}"
+        ],
+        [
+            "",
+            "\\pqty{x - 1}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\eval{\\frac{x}{2}\\sqrt{4-x^{2}} + 2\\arcsin\\!\\frac{x}{2}}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{\\frac{x}{2}\\sqrt{4-x^{2}} + 2\\arcsin\\!\\frac{x}{2}}_{-2}^{2}}"
+        ],
+        [
+            "",
+            "\\pqty{2\\cos^{2}{\\theta}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{xe^{-x} - e^{-x}}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\int_{-\\sqrt{4 - x^{2}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{2\\cdot\\frac{\\pi}{2} - 2\\cdot\\bigg(-\\frac{\\pi}{2}\\bigg)}"
+        ],
+        [
+            "",
+            "\\bqty{2\\pi}"
+        ],
+        [
+            "",
+            "\\bqty{\\pi - (-\\pi)}"
+        ],
+        [
+            "",
+            "\\pqty{1 - (0)^{2}}"
+        ],
+        [
+            "",
+            "\\pqty{1 - (1)^{2}}"
+        ],
+        [
+            "",
+            "\\bqty{\\pqty{1 - (1)^{2}}^{\\frac{3}{2}} - \\pqty{1 - (0)^{2}}}"
+        ],
+        [
+            "",
+            "\\eval{\\bqty{\\pqty{1 - (1)^{2}}^{\\frac{3}{2}} - \\pqty{1 - (0)^{2}}}}"
+        ],
+        [
+            "",
+            "\\int_{y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\bqty{2\\cdot\\frac{\\pi}{2} - 2\\cdot\\bigg(-\\frac{\\pi}{2}\\bigg)}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\pqty{1 - 1}"
+        ],
+        [
+            "",
+            "\\bqty{\\pqty{1 - 1}e^{-1} - e^{-1}}"
+        ],
+        [
+            "",
+            "\\pqty{1 - 4}"
+        ],
+        [
+            "",
+            "\\bqty{\\pqty{1 - 4}e^{-4} - e^{-4}}"
+        ],
+        [
+            "",
+            "\\bqty{4x - \\frac{x^{2}}{2}}"
+        ],
+        [
+            "",
+            "\\eval{\\bqty{4x - \\frac{x^{2}}{2}}}"
+        ],
+        [
+            "",
+            "\\eval{\\frac{x^{2}}{2}}"
+        ],
+        [
+            "",
+            "\\bqty{2\\pi}"
+        ],
+        [
+            "",
+            "\\bqty{\\pi - (-\\pi)}"
+        ],
+        [
+            "",
+            "\\bqty{0 - e^{-1}}"
+        ],
+        [
+            "",
+            "\\bqty{-3e^{-4} - e^{-4}}"
+        ],
+        [
+            "",
+            "\\eval{x}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{x}_{2}^{4 - y}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\eval{x}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{x}_{y}^{2}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{u(0)}"
+        ],
+        [
+            "",
+            "\\bqty{x - 1}"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\bqty{4 - x}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\bqty{x}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{\\bigg(\\frac{2}{2}\\cdot 0 + 2\\arcsin(1)\\bigg) - \\bigg(\\frac{-2}{2}\\cdot 0 + 2\\arcsin(-1)\\bigg)}"
+        ],
+        [
+            "",
+            "\\bqty{2 - y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{2 - y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{-\\sqrt{4 - y^{2}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{2}^{4 - y} \\dd{x}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{y}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{y}^{2} \\dd{x}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\eval{y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\pqty{1}"
+        ],
+        [
+            "",
+            "\\pqty{\\sqrt{x}}"
+        ],
+        [
+            "",
+            "\\bqty{\\frac{2\\pqty{\\sqrt{x}}^{2}}{2} e^{-x} - \\frac{2\\pqty{1}^{2}}{2} e^{-x} }"
+        ],
+        [
+            "",
+            "\\int_{1}"
+        ],
+        [
+            "",
+            "\\pqty{1 - x^{2}}"
+        ],
+        [
+            "",
+            "\\eval{\\pqty{1 - x^{2}}^{\\frac{3}{2}}}"
+        ],
+        [
+            "",
+            "\\bqty{4 - 2}"
+        ],
+        [
+            "",
+            "\\eval{2y - \\frac{y^{2}}{2}}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{2y - \\frac{y^{2}}{2}}_{0}^{2}}"
+        ],
+        [
+            "",
+            "\\eval{\\frac{y}{2}\\sqrt{4-y^{2}} + 2\\arcsin\\!\\frac{y}{2}}"
+        ],
+        [
+            "",
+            "\\bqty{\\eval{\\frac{y}{2}\\sqrt{4-y^{2}} + 2\\arcsin\\!\\frac{y}{2}}_{-2}^{2}}"
+        ],
+        [
+            "",
+            "\\int_{-\\sqrt{4 - x^{2}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ],
+        [
+            "",
+            "\\theta_{0}"
+        ],
+        [
+            "",
+            "\\bqty{{\\theta} + \\frac{1}{2}\\sin{2\\theta}}"
+        ],
+        [
+            "",
+            "\\eval{\\bqty{{\\theta} + \\frac{1}{2}\\sin{2\\theta}}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{0}^{4 - x} \\dd{y} }"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{\\int_{0}^{x} \\dd{y} }"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{2}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\int_{y}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\bqty{2\\sqrt{4 - x^{2}}}"
+        ],
+        [
+            "",
+            "\\int_{-2}"
+        ]
+    ]
+}

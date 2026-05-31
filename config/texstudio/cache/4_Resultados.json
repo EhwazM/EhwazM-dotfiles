@@ -1,0 +1,32 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Proyecto_TG_Fisica_UA_Nov2023/sections/4_Resultados.tex",
+    "labels": [
+        "tab_fortalecimeiento",
+        "tab_impactos",
+        "tab_nuevoConocimiento",
+        "sec:resultados",
+        "tab_apropiacionSocial"
+    ],
+    "modified": "Mon Nov 20 01:43:58 2023",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Resultados/Productos esperados y potenciales beneficiarios#0",
+        "3#Relacionados con la generación de conocimiento y/o nuevos desarrollos tecnológicos#7",
+        "3#Conducentes al fortalecimiento de la capacidad científica nacional#25",
+        "3#Dirigidos a la apropiación social del conocimiento#43",
+        "3#Impactos esperados a partir del uso de los resultados#61",
+        "3#Conformación y trayectoria del Grupo de Investigación \\textcolor{blue}{(máximo 500 palabras)}#84",
+        "3#Consideraciones adicionales#87"
+    ],
+    "usercommands": [
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Simple_Hipster_CV/main.tex",
+    "labels": [
+    ],
+    "modified": "Sun May 31 08:35:52 2026",
+    "packages": [
+        "utf8#inputenc",
+        "default#raleway",
+        "margin=1cm, a4paper#geometry",
+        "darkhipster#simplehipstercv",
+        "#graphicx"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Start#33",
+        "3#{}#40",
+        "2#Short Resumé#117",
+        "2#Studies#128",
+        "2#Languages#139",
+        "2#Software Tools#152",
+        "2#Courses#163",
+        "2#Published articles#173"
+    ],
+    "usercommands": [
+        [
+            "\\rightcolwidth",
+            "\\rightcolwidth"
+        ],
+        [
+            "\\leftcolwidth",
+            "\\leftcolwidth"
+        ]
+    ]
+}

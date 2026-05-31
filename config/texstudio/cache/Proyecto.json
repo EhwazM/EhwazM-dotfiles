@@ -1,0 +1,60 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Presentación de proyecto/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Presentación de proyecto/Proyecto.tex",
+    "labels": [
+    ],
+    "modified": "Thu Oct 23 08:24:38 2025",
+    "packages": [
+        "utf8#inputenc",
+        "backend = biber, style = numeric#biblatex",
+        "#beamerthemeSimplePlus",
+        "T1#fontenc",
+        "#tabularray",
+        "#tgbonum",
+        "#fancyhdr",
+        "#textcomp",
+        "#subcaption",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#graphicx",
+        "#float",
+        "#csquotes",
+        "#xcolor",
+        "#cancel",
+        "#booktabs",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "aspectratio=3218,xcolor=dvipsnames#class-beamer",
+        "aspectratio=3218,xcolor=dvipsnames#latex-document",
+        "aspectratio=3218,xcolor=dvipsnames#tex",
+        "spanish, es-tabla#babel"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introducción#54",
+        "2#Justificación#66",
+        "2#Objetivos#78",
+        "2#Metodología#99",
+        "2#Componentes principales#114",
+        "2#Diseño propuesto del hardware#159",
+        "2#Diseño del software#178",
+        "2#Resultados esperados#220"
+    ],
+    "usercommands": [
+        [
+            "\\columnseprulecolor",
+            "\\columnseprulecolor"
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/softwarex-osp-template/softwarex-osp-template.tex",
+    "labels": [
+        "executabelMetadata",
+        "codeMetadata"
+    ],
+    "modified": "Tue Jan 27 13:43:26 2026",
+    "packages": [
+        "#amssymb",
+        "#hyperref",
+        "#nameref",
+        "preprint,12pt, a4paper#class-elsarticle",
+        "preprint,12pt, a4paper#latex-document",
+        "preprint,12pt, a4paper#tex"
+    ],
+    "refs": [
+        "codeMetadata",
+        "executabelMetadata"
+    ],
+    "toc": [
+        "2#Metadata#121",
+        "2#Motivation and significance#185",
+        "2#Software description#195",
+        "3#Software architecture#199",
+        "3#Software functionalities#202",
+        "3#Sample code snippets analysis (optional)#205",
+        "2#Illustrative examples#208",
+        "2#Impact#215",
+        "2#Conclusions#228",
+        "2#Acknowledgements#230"
+    ],
+    "usercommands": [
+        [
+            "\\labelenumii",
+            "\\labelenumii"
+        ]
+    ]
+}
