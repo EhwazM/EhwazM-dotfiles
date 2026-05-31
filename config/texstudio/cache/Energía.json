@@ -1,0 +1,71 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Exposiciones/HEF - Energía/references.bib#references.bib"
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Exposiciones/HEF - Energía/glossary.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Exposiciones/HEF - Energía/Energía.tex",
+    "labels": [
+    ],
+    "modified": "Sun May 31 12:21:39 2026",
+    "packages": [
+        " backend=biber, style=numeric, sorting=none #biblatex",
+        "utf8#inputenc",
+        "T1#fontenc",
+        "acronym,nonumberlist#glossaries",
+        "spanish,english,es-tabla#babel",
+        "aspectratio=169,xcolor=dvipsnames#class-beamer",
+        "aspectratio=169,xcolor=dvipsnames#latex-document",
+        "aspectratio=169,xcolor=dvipsnames#tex",
+        "#xcolor",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#physics",
+        "#multirow",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#enumitem",
+        "#csquotes",
+        "#caption",
+        "#cancel",
+        "#booktabs",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "#hyperref",
+        "#nameref",
+        "#beamerthememetropolis"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "-1#glossary.tex#83",
+        "2#Antes de Nosotros#153",
+        "2#Evolución#161",
+        "2#El Problema Energético#169",
+        "2#Tipos de Civilización#177",
+        "2#Energía Nuclear#192",
+        "2#Intentos y Fracasos#225",
+        "2#Proyectos Actuales#233",
+        "2#Termodinámica#248",
+        "2#Conclusiones#262",
+        "2#Referencias#270"
+    ],
+    "usercommands": [
+        [
+            "",
+            "$_2"
+        ],
+        [
+            "",
+            "%color%FusionBlue"
+        ]
+    ]
+}

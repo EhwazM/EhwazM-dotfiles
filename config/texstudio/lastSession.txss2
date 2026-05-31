@@ -1,7 +1,7 @@
 {
     "InternalPDFViewer": {
         "Embedded": true,
-        "File": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.pdf"
+        "File": "../../Documents/LaTeX/Template/template.pdf"
     },
     "Session": {
         "Bookmarks": [
@@ -10,28 +10,36 @@
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 15,
+                "Col": 16,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
-                "FirstLine": 3,
+                "FirstLine": 21,
                 "FoldedLines": "",
-                "Line": 23
+                "Line": 41
             },
             {
                 "Col": 24,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Simple_Hipster_CV/main.tex",
-                "FirstLine": 83,
+                "FirstLine": 78,
                 "FoldedLines": "",
                 "Line": 120
             },
             {
-                "Col": 0,
+                "Col": 27,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Template/template.tex",
-                "FirstLine": 0,
+                "FirstLine": 42,
                 "FoldedLines": "",
-                "Line": 21
+                "Line": 59
+            },
+            {
+                "Col": 28,
+                "EditorGroup": 0,
+                "FileName": "../../Documents/LaTeX/Exposiciones/HEF - Energía/Energía.tex",
+                "FirstLine": 238,
+                "FoldedLines": "",
+                "Line": 265
             }
         ],
         "MasterFile": "",

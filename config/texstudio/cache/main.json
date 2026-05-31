@@ -8,13 +8,13 @@
     "filename": "/home/ehwazm/Documents/LaTeX/Simple_Hipster_CV/main.tex",
     "labels": [
     ],
-    "modified": "Sun May 31 08:35:52 2026",
+    "modified": "Sun May 31 12:21:39 2026",
     "packages": [
+        "#graphicx",
         "utf8#inputenc",
-        "default#raleway",
         "margin=1cm, a4paper#geometry",
         "darkhipster#simplehipstercv",
-        "#graphicx"
+        "default#raleway"
     ],
     "refs": [
     ],

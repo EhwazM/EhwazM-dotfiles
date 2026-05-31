@@ -1,0 +1,84 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Clase - inecuaciones/References.bib#References.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Clase - inecuaciones/Clases - Inecuaciones.tex",
+    "labels": [
+        "tb:Symbols"
+    ],
+    "modified": "Sun May 31 11:13:11 2026",
+    "packages": [
+        "#fancyhdr",
+        "#textcomp",
+        "#textcomp",
+        "#subcaption",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#graphicx",
+        "#float",
+        "#csquotes",
+        "#xcolor",
+        "#cancel",
+        "#booktabs",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "#beamerthemeSimplePlus",
+        "utf8#inputenc",
+        "aspectratio=169,xcolor=dvipsnames#class-beamer",
+        "aspectratio=169,xcolor=dvipsnames#latex-document",
+        "aspectratio=169,xcolor=dvipsnames#tex",
+        "backend = biber, style = numeric#biblatex",
+        "T1#fontenc",
+        "spanish, english, es-tabla#babel"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Desigualdades#55",
+        "3#Símbolos#73",
+        "3#Reglas#95",
+        "3#Intervalos#126",
+        "2#Inecuaciones#210",
+        "3#Propiedades#220",
+        "3#Tipos#235",
+        "3#6. Logarítmicas#381"
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\log_{3}"
+        ],
+        [
+            "\\columnseprulecolor",
+            "\\columnseprulecolor"
+        ],
+        [
+            "",
+            "\\pqty{x - 5}"
+        ],
+        [
+            "",
+            "\\pqty{x - 3}"
+        ],
+        [
+            "",
+            "\\mathbb{R}"
+        ],
+        [
+            "",
+            "\\mathbb{R}"
+        ],
+        [
+            "",
+            "\\log_{2}"
+        ]
+    ]
+}

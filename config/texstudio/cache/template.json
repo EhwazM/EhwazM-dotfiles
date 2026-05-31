@@ -10,14 +10,18 @@
     "filename": "/home/ehwazm/Documents/LaTeX/Template/template.tex",
     "labels": [
     ],
-    "modified": "Sun May 31 08:35:52 2026",
+    "modified": "Sun May 31 12:21:39 2026",
     "packages": [
-        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
-        "english#babel",
-        "backend = biber, style = numeric, sorting = none#biblatex",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
         "utf8#inputenc",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
         "T1#fontenc",
         "acronym, nonumberlist#glossaries",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "english#babel",
         "#xfrac",
         "#xcolor",
         "#tocloft",
@@ -42,11 +46,7 @@
         "#array",
         "#amssymb",
         "#amsmath",
-        "#alphabeta",
-        "hidelinks#hyperref",
-        "hidelinks#nameref",
-        "10pt,letterpaper#latex-document",
-        "10pt,letterpaper#tex"
+        "#alphabeta"
     ],
     "refs": [
     ],
@@ -67,44 +67,44 @@
     ],
     "usercommands": [
         [
-            "\\listfigurename",
-            "\\listfigurename"
-        ],
-        [
             "\\listtablename",
             "\\listtablename"
-        ],
-        [
-            "\\cftsecleader",
-            "\\cftsecleader"
-        ],
-        [
-            "\\margin",
-            "\\margin"
-        ],
-        [
-            "\\contentsname",
-            "\\contentsname"
-        ],
-        [
-            "\\contentsname",
-            "\\contentsname"
-        ],
-        [
-            "\\Authands",
-            "\\Authands"
-        ],
-        [
-            "\\headrulewidth",
-            "\\headrulewidth"
         ],
         [
             "\\Authand",
             "\\Authand"
         ],
         [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\listfigurename",
+            "\\listfigurename"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
             "\\glossaryname",
             "\\glossaryname"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
         ]
     ]
 }
