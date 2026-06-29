@@ -10,18 +10,18 @@
     "filename": "/home/ehwazm/Documents/LaTeX/Template/template.tex",
     "labels": [
     ],
-    "modified": "Sun May 31 12:21:39 2026",
+    "modified": "Thu Jun 18 12:31:51 2026",
     "packages": [
-        "10pt,letterpaper#latex-document",
-        "10pt,letterpaper#tex",
         "hidelinks#hyperref",
         "hidelinks#nameref",
-        "utf8#inputenc",
-        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
-        "T1#fontenc",
         "acronym, nonumberlist#glossaries",
-        "backend = biber, style = numeric, sorting = none#biblatex",
+        "utf8#inputenc",
         "english#babel",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "T1#fontenc",
         "#xfrac",
         "#xcolor",
         "#tocloft",
@@ -63,48 +63,48 @@
         "2#Análisis de datos - error#175",
         "2#Discusión#178",
         "2#Conclusiones#181",
-        "2#BIBLIOGRAFÍA#187"
+        "2#Referencias#187"
     ],
     "usercommands": [
         [
-            "\\listtablename",
-            "\\listtablename"
-        ],
-        [
             "\\Authand",
             "\\Authand"
-        ],
-        [
-            "\\margin",
-            "\\margin"
-        ],
-        [
-            "\\Authands",
-            "\\Authands"
-        ],
-        [
-            "\\listfigurename",
-            "\\listfigurename"
-        ],
-        [
-            "\\cftsecleader",
-            "\\cftsecleader"
         ],
         [
             "\\glossaryname",
             "\\glossaryname"
         ],
         [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\listfigurename",
+            "\\listfigurename"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
             "\\headrulewidth",
             "\\headrulewidth"
         ],
         [
-            "\\contentsname",
-            "\\contentsname"
+            "\\listtablename",
+            "\\listtablename"
         ],
         [
-            "\\contentsname",
-            "\\contentsname"
+            "\\cftsecleader",
+            "\\cftsecleader"
         ]
     ]
 }

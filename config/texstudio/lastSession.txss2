@@ -1,45 +1,53 @@
 {
     "InternalPDFViewer": {
         "Embedded": true,
-        "File": "../../Documents/LaTeX/Template/template.pdf"
+        "File": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.pdf"
     },
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "../../Documents/LaTeX/Template/template.tex",
+        "CurrentFile": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 16,
+                "Col": 4,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
-                "FirstLine": 21,
+                "FirstLine": 840,
                 "FoldedLines": "",
-                "Line": 41
+                "Line": 851
             },
             {
                 "Col": 24,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Simple_Hipster_CV/main.tex",
-                "FirstLine": 78,
+                "FirstLine": 21,
                 "FoldedLines": "",
                 "Line": 120
             },
             {
-                "Col": 27,
+                "Col": 22,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Template/template.tex",
-                "FirstLine": 42,
+                "FirstLine": 61,
                 "FoldedLines": "",
-                "Line": 59
+                "Line": 165
             },
             {
-                "Col": 28,
+                "Col": 125,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Exposiciones/HEF - Energía/Energía.tex",
-                "FirstLine": 238,
+                "FirstLine": 219,
                 "FoldedLines": "",
-                "Line": 265
+                "Line": 252
+            },
+            {
+                "Col": 1,
+                "EditorGroup": 0,
+                "FileName": "../../Documents/LaTeX/Exposiciones/HEF - Energía/references.bib",
+                "FirstLine": 35,
+                "FoldedLines": "",
+                "Line": 88
             }
         ],
         "MasterFile": "",

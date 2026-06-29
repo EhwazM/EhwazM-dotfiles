@@ -9,21 +9,26 @@
     ],
     "filename": "/home/ehwazm/Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
     "labels": [
-        "fig:red_pitaya_versions",
-        "fig:stemlab_125-14_parts",
-        "eq:quad",
         "eq:in_phase",
-        "fig:red_pitaya_board"
+        "tab:lia_wrapper",
+        "tab:lia_fpga_results",
+        "fig:lia_sv_tb",
+        "fig:osci_design",
+        "fig:red_pitaya_versions",
+        "fig:red_pitaya_board",
+        "fig:osci_example2",
+        "fig:lia_design",
+        "tab:lia_sv_tb",
+        "tab:lia_fpga_expected",
+        "fig:osci_ui",
+        "fig:stemlab_125-14_parts",
+        "fig:osci_example1",
+        "eq:quad",
+        "fig:osci_example3"
     ],
-    "modified": "Sun May 31 12:21:39 2026",
+    "modified": "Thu Jun 18 12:31:51 2026",
     "packages": [
-        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
-        "utf8#inputenc",
-        "hidelinks#hyperref",
-        "hidelinks#nameref",
-        "acronym, nonumberlist#glossaries",
-        "T1#fontenc",
-        "backend = biber, style = apa, sorting = none#biblatex",
+        "spanish, es-tabla#babel",
         "#xfrac",
         "#xcolor",
         "#tocloft",
@@ -49,14 +54,28 @@
         "#amssymb",
         "#amsmath",
         "#alphabeta",
-        "spanish, es-tabla#babel",
+        "T1#fontenc",
+        "acronym, nonumberlist#glossaries",
+        "backend = biber, style = apa, sorting = none#biblatex",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "utf8#inputenc",
         "10pt,letterpaper#latex-document",
-        "10pt,letterpaper#tex"
+        "10pt,letterpaper#tex",
+        "hidelinks#hyperref",
+        "hidelinks#nameref"
     ],
     "refs": [
-        "",
+        "tab:lia_sv_tb",
+        "fig:stemlab_125-14_parts",
+        "fig:lia_design",
+        "fig:red_pitaya_versions",
+        "fig:lia_sv_tb",
         "fig:red_pitaya_board",
-        "fig:stemlab_125-14_parts"
+        "tab:lia_fpga_results",
+        "tab:lia_fpga_expected",
+        "tab:lia_wrapper",
+        "fig:osci_design",
+        "fig:osc_ui"
     ],
     "toc": [
         "-1#glossary.tex#26",
@@ -106,21 +125,129 @@
         "4#Adquisición de datos#627",
         "4#Criterios de evaluación#628",
         "2#RESULTADOS#634",
-        "3#Resultados del sistema implementado#636",
-        "4#Visualización de señales#638",
-        "4#Procesamiento en tiempo real#639",
-        "3#Análisis#641",
-        "4#Desempeño del sistema#643",
-        "4#Precisión y ruido#644",
-        "3#Discusión#646",
-        "4#Comparación con equipos comerciales#648",
-        "4#Limitaciones del sistema#649",
-        "4#Ventajas de la solución propuesta#650",
-        "2#CONCLUSIONES#656",
-        "2#BIBLIOGRAFÍA#661",
-        "2#ANEXOS#667"
+        "3#Generador de señales y Osciloscopio#636",
+        "4#Visualización de señales#648",
+        "4#Señales generadas y captadas#703",
+        "3#Lock-in Amplifier#729",
+        "4#SystemVerilog módulos TestBench#741",
+        "4#FPGA implementación funcionamiento#803",
+        "2#CONCLUSIONES#867",
+        "2#BIBLIOGRAFÍA#872",
+        "2#ANEXOS#878"
     ],
     "usercommands": [
+        [
+            "\\listfigurename",
+            "\\listfigurename"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "\\glossaryname",
+            "\\glossaryname"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{A_{r}\\sin(\\omega_{r}t + \\phi_{r})}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{A_{s}\\sin(\\omega_{s}t + \\phi_{s}) + n(t)}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
         [
             "",
             "\\phi_{r}"
@@ -182,40 +309,28 @@
             "\\bqty{\\cos(\\pqty{\\omega_{s}t + \\phi_{s}} - \\pqty{\\omega_{r}t + \\phi_{r}}) -\\cos(\\pqty{\\omega_{s}t + \\phi_{s}} + \\pqty{\\omega_{r}t + \\phi_{r}})}"
         ],
         [
-            "\\listfigurename",
-            "\\listfigurename"
-        ],
-        [
-            "\\margin",
-            "\\margin"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\omega_{s}"
-        ],
-        [
-            "",
-            "\\Psi_{s}"
-        ],
-        [
-            "",
-            "\\bqty{\\cos(\\alpha - \\beta) - \\cos(\\alpha + \\beta)}"
-        ],
-        [
             "",
             "\\phi_{r}"
         ],
         [
             "",
-            "\\omega_{r}"
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\phi_{rel}) - \\cos(2\\omega t + \\phi_{hf})}"
         ],
         [
             "",
             "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
         ],
         [
             "",
@@ -228,150 +343,6 @@
         [
             "",
             "\\Psi_{Q}"
-        ],
-        [
-            "\\contentsname",
-            "\\contentsname"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\omega_{s}"
-        ],
-        [
-            "",
-            "\\Psi_{s}"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\omega_{s}"
-        ],
-        [
-            "",
-            "\\Psi_{s}"
-        ],
-        [
-            "",
-            "\\pqty{1}"
-        ],
-        [
-            "",
-            "\\pqty{\\frac{A_{s}}{2}}"
-        ],
-        [
-            "",
-            "\\phi_{r}"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\phi_{hf}"
-        ],
-        [
-            "",
-            "\\phi_{r}"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\phi_{rel}"
-        ],
-        [
-            "",
-            "\\omega_{r}"
-        ],
-        [
-            "",
-            "\\omega_{s}"
-        ],
-        [
-            "",
-            "\\phi_{rel}"
-        ],
-        [
-            "",
-            "\\phi_{r}"
-        ],
-        [
-            "",
-            "\\omega_{r}"
-        ],
-        [
-            "",
-            "\\phi_{r}"
-        ],
-        [
-            "",
-            "\\omega_{r}"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\omega_{s}"
-        ],
-        [
-            "",
-            "\\pqty{A_{s}A_{r}}"
-        ],
-        [
-            "\\listtablename",
-            "\\listtablename"
-        ],
-        [
-            "",
-            "\\phi_{rel}"
-        ],
-        [
-            "\\Authands",
-            "\\Authands"
-        ],
-        [
-            "",
-            "\\phi_{r}"
-        ],
-        [
-            "",
-            "\\omega_{r}"
-        ],
-        [
-            "",
-            "\\pqty{A_{r}\\sin(\\omega_{r}t + \\phi_{r})}"
-        ],
-        [
-            "",
-            "\\phi_{s}"
-        ],
-        [
-            "",
-            "\\omega_{s}"
-        ],
-        [
-            "",
-            "\\pqty{A_{s}\\sin(\\omega_{s}t + \\phi_{s}) + n(t)}"
-        ],
-        [
-            "",
-            "\\Psi_{r}"
-        ],
-        [
-            "",
-            "\\Psi_{s}"
         ],
         [
             "",
@@ -426,16 +397,16 @@
             "\\lim_{T \\rightarrow \\infty}"
         ],
         [
-            "",
-            "\\phi_{rel}"
+            "\\margin",
+            "\\margin"
         ],
         [
-            "",
-            "\\phi_{rel}"
+            "\\headrulewidth",
+            "\\headrulewidth"
         ],
         [
-            "",
-            "\\pqty{\\frac{A_{s}}{2}}"
+            "\\Authands",
+            "\\Authands"
         ],
         [
             "",
@@ -443,39 +414,27 @@
         ],
         [
             "",
-            "\\phi_{hf}"
+            "\\omega_{r}"
         ],
         [
             "",
-            "\\phi_{rel}"
+            "\\phi_{r}"
         ],
         [
             "",
-            "\\bqty{\\cos(\\phi_{rel}) - \\cos(2\\omega t + \\phi_{hf})}"
+            "\\omega_{r}"
         ],
         [
             "",
-            "\\Psi_{r}"
+            "\\phi_{s}"
         ],
         [
             "",
-            "\\Psi_{s}"
+            "\\omega_{s}"
         ],
         [
-            "\\Authand",
-            "\\Authand"
-        ],
-        [
-            "\\headrulewidth",
-            "\\headrulewidth"
-        ],
-        [
-            "\\cftsecleader",
-            "\\cftsecleader"
-        ],
-        [
-            "\\glossaryname",
-            "\\glossaryname"
+            "",
+            "\\pqty{A_{s}A_{r}}"
         ],
         [
             "",
@@ -498,16 +457,60 @@
             "\\lim_{T \\rightarrow \\infty}"
         ],
         [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
             "",
-            "\\bqty{\\sin(\\alpha - \\beta) + \\sin(\\alpha + \\beta)}"
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
         ],
         [
             "",
             "\\phi_{rel}"
         ],
         [
-            "\\contentsname",
-            "\\contentsname"
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "\\listtablename",
+            "\\listtablename"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
         ],
         [
             "",
