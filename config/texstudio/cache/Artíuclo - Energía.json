@@ -1,0 +1,95 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Energía/references.bib#references.bib"
+    ],
+    "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Energía/glossary.tex"
+    ],
+    "filename": "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Energía/Artíuclo - Energía.tex",
+    "labels": [
+        "fig:iter"
+    ],
+    "modified": "Sat Jul 4 10:53:28 2026",
+    "packages": [
+        "acronym, nonumberlist#glossaries",
+        "T1#fontenc",
+        "utf8#inputenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
+        "spanish, es-tabla#babel",
+        "#xfrac",
+        "#xcolor",
+        "#tocloft",
+        "#textcomp",
+        "#subcaption",
+        "#siunitx",
+        "#setspace",
+        "#physics",
+        "#multirow",
+        "#multicol",
+        "#makeidx",
+        "#makecell",
+        "#graphicx",
+        "#float",
+        "#fancyhdr",
+        "#enumitem",
+        "#csquotes",
+        "#caption",
+        "#cancel",
+        "#booktabs",
+        "#authblk",
+        "#array",
+        "#amssymb",
+        "#amsmath",
+        "#alphabeta",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "hidelinks#hyperref",
+        "hidelinks#nameref"
+    ],
+    "refs": [
+        "fig:iter"
+    ],
+    "toc": [
+        "-1#glossary.tex#26",
+        "2#Resumen#95",
+        "2#Introducción: El Despertar Eléctrico#111",
+        "2#La Era del Petróleo y el Pico de Hubbert#138",
+        "2#La Fisión Nuclear: Promesas y Cicatrices#145",
+        "2#El Desafío del Siglo XXI: Calentamiento Global#161",
+        "3#Geoingeniería y Soluciones Técnicas#164",
+        "2#La Fusión Nuclear: El Sol en la Tierra#175",
+        "3#Cronología de Fracasos y Esperanzas#185",
+        "2#El Futuro Lejano (2070-2100): La Era del Magnetismo#205",
+        "2#Conclusión#216",
+        "2#Referencias#222"
+    ],
+    "usercommands": [
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "\\margin",
+            "\\margin"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ]
+    ]
+}

@@ -1,53 +1,37 @@
 {
     "InternalPDFViewer": {
         "Embedded": true,
-        "File": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.pdf"
+        "File": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/Artíuclo - Red Pitaya.pdf"
     },
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
+        "CurrentFile": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/Artíuclo - Red Pitaya.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 4,
+                "Col": 494,
                 "EditorGroup": 0,
-                "FileName": "../../Documents/LaTeX/Trabajo de Grado/Trabajo de grado.tex",
-                "FirstLine": 840,
+                "FileName": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/Artíuclo - Red Pitaya.tex",
+                "FirstLine": 657,
                 "FoldedLines": "",
-                "Line": 851
+                "Line": 660
             },
             {
-                "Col": 24,
-                "EditorGroup": 0,
-                "FileName": "../../Documents/LaTeX/Simple_Hipster_CV/main.tex",
-                "FirstLine": 21,
-                "FoldedLines": "",
-                "Line": 120
-            },
-            {
-                "Col": 22,
+                "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Template/template.tex",
-                "FirstLine": 61,
+                "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 165
+                "Line": 0
             },
             {
-                "Col": 125,
+                "Col": 0,
                 "EditorGroup": 0,
-                "FileName": "../../Documents/LaTeX/Exposiciones/HEF - Energía/Energía.tex",
-                "FirstLine": 219,
+                "FileName": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/softwarex-osp-template.tex",
+                "FirstLine": 167,
                 "FoldedLines": "",
-                "Line": 252
-            },
-            {
-                "Col": 1,
-                "EditorGroup": 0,
-                "FileName": "../../Documents/LaTeX/Exposiciones/HEF - Energía/references.bib",
-                "FirstLine": 35,
-                "FoldedLines": "",
-                "Line": 88
+                "Line": 242
             }
         ],
         "MasterFile": "",

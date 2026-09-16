@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait Copy"/>
-  <property name="lastSavePath" value="/home/ehwazm/Documents/Xournal/Lock-In procedimientos"/>
+  <property name="lastSavePath" value="/home/ehwazm/Documents/Xournal"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value="/home/ehwazm/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
@@ -245,7 +245,7 @@
       <attribute name="size" type="string" value="MEDIUM"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ff000000"/>
+      <attribute name="color" type="hex" value="ff008000"/>
       <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="143"/>

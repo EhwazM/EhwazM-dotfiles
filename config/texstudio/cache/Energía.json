@@ -10,17 +10,15 @@
     "filename": "/home/ehwazm/Documents/LaTeX/Exposiciones/HEF - Energía/Energía.tex",
     "labels": [
     ],
-    "modified": "Thu Jun 18 12:31:51 2026",
+    "modified": "Sat Jul 4 10:53:27 2026",
     "packages": [
-        "#beamerthememetropolis",
-        "rightcaption#sidecap",
-        "spanish,english,es-tabla#babel",
         " backend=biber, style=numeric, sorting=none #biblatex",
+        "acronym,nonumberlist#glossaries",
         "#hyperref",
         "#nameref",
-        "aspectratio=169,xcolor=dvipsnames#class-beamer",
-        "aspectratio=169,xcolor=dvipsnames#latex-document",
-        "aspectratio=169,xcolor=dvipsnames#tex",
+        "#beamerthememetropolis",
+        "rightcaption#sidecap",
+        "utf8#inputenc",
         "#xcolor",
         "#textcomp",
         "#subcaption",
@@ -40,9 +38,11 @@
         "#amssymb",
         "#amsmath",
         "#alphabeta",
-        "acronym,nonumberlist#glossaries",
-        "utf8#inputenc",
-        "T1#fontenc"
+        "T1#fontenc",
+        "aspectratio=169,xcolor=dvipsnames#class-beamer",
+        "aspectratio=169,xcolor=dvipsnames#latex-document",
+        "aspectratio=169,xcolor=dvipsnames#tex",
+        "spanish,english,es-tabla#babel"
     ],
     "refs": [
     ],
@@ -56,12 +56,12 @@
     ],
     "usercommands": [
         [
-            "\\bibfont",
-            "\\bibfont"
-        ],
-        [
             "",
             "%color%FusionBlue"
+        ],
+        [
+            "\\bibfont",
+            "\\bibfont"
         ]
     ]
 }

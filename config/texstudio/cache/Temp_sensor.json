@@ -2,29 +2,29 @@
     "bibitems": [
     ],
     "bibtexfiles": [
-        "/home/ehwazm/Documents/LaTeX/Artíuclo - Sensor de Temperatura/References.bib#References.bib"
+        "/home/ehwazm/Documents/LaTeX/Artículos/Artíuclo - Sensor de Temperatura/references.bib#references.bib"
     ],
     "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Artículos/Artíuclo - Sensor de Temperatura/glossary.tex"
     ],
-    "filename": "/home/ehwazm/Documents/LaTeX/Artíuclo - Sensor de Temperatura/Temp_sensor.tex",
+    "filename": "/home/ehwazm/Documents/LaTeX/Artículos/Artíuclo - Sensor de Temperatura/Temp_sensor.tex",
     "labels": [
-        "fig:plot-water",
+        "fig:sensor",
+        "fig:sch",
         "fig:pcb",
-        "fig:sch"
+        "fig:temp_ui",
+        "fig:temp_ui_3_sensors",
+        "fig:plot-water"
     ],
-    "modified": "Fri Nov 7 00:09:01 2025",
+    "modified": "Mon Aug 24 10:51:14 2026",
     "packages": [
-        "utf8#inputenc",
-        "10pt,letterpaper#latex-document",
-        "10pt,letterpaper#tex",
-        "T1#fontenc",
-        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
-        "backend = biber, style = numeric, sorting = none#biblatex",
+        "#xfrac",
         "#xcolor",
         "#tocloft",
         "#textcomp",
         "#subcaption",
         "#siunitx",
+        "#setspace",
         "#physics",
         "#multirow",
         "#multicol",
@@ -35,6 +35,7 @@
         "#fancyhdr",
         "#enumitem",
         "#csquotes",
+        "#caption",
         "#cancel",
         "#booktabs",
         "#authblk",
@@ -44,58 +45,62 @@
         "#alphabeta",
         "hidelinks#hyperref",
         "hidelinks#nameref",
-        "english#babel"
+        "utf8#inputenc",
+        "10pt,letterpaper#latex-document",
+        "10pt,letterpaper#tex",
+        "T1#fontenc",
+        "backend = biber, style = numeric, sorting = none#biblatex",
+        "english#babel",
+        "acronym, nonumberlist#glossaries",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry"
     ],
     "refs": [
-        "fig:plot-water",
         "fig:sch",
-        "fig:pcb"
+        "fig:temp_ui_3_sensors",
+        "fig:temp_ui",
+        "fig:pcb",
+        "fig:sensor",
+        "fig:plot-water"
     ],
     "toc": [
-        "2#Abstract#87",
-        "2#Resumen#100",
-        "2#\\textbf{Objectives}#110",
-        "3#General Objective#113",
-        "3#Specific Objectives#118",
-        "2#Introduction#134",
-        "2#Theoretical Framework#145",
-        "3#Sensors#147",
-        "3#The DS18B20 temperature sensor#150",
-        "3#Microcontroller and communication protocol#180",
-        "2#Methodology#183",
-        "3#Materials, equipment and software#185",
-        "3#Schematic and PCB design#199",
-        "3#Breadboard Testing#209",
-        "3#PCB assembly#214",
-        "3#Circuit testing and data collection#225",
-        "3#Application#232",
-        "2#Taken Data and Error Analysis#240",
-        "3#Temperature vs. Time Behavior#241",
-        "3#Comparison with reference measurements#252",
-        "3#Uncertainty and error estimation#253",
-        "2#Discussion#255",
-        "2#Conclusions#263"
+        "-1#glossary.tex#26",
+        "2#Abstract#99",
+        "2#Resumen#112",
+        "2#Introduction#165",
+        "2#Theoretical Framework#177",
+        "3#Sensors#179",
+        "3#The DS18B20 temperature sensor#182",
+        "3#Microcontroller and communication protocol#222",
+        "2#Methodology#225",
+        "3#Materials, equipment and software#227",
+        "3#Schematic and PCB design#241",
+        "3#Breadboard Testing#251",
+        "3#PCB assembly#256",
+        "3#Circuit testing and data collection#267",
+        "3#Python application with Pyside6#274",
+        "2#Results#282",
+        "3#User interface for the temperature sensors application#283",
+        "3#Temperature vs. Time Behavior#308",
+        "2#Discussion#321",
+        "2#Conclusions#331",
+        "2#BIBLIOGRAFÍA#342"
     ],
     "usercommands": [
         [
-            "\\headrulewidth",
-            "\\headrulewidth"
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "\\margin",
+            "\\margin"
         ],
         [
             "\\Authands",
             "\\Authands"
         ],
         [
-            "\\cftsecleader",
-            "\\cftsecleader"
-        ],
-        [
-            "\\contentsname",
-            "\\contentsname"
-        ],
-        [
-            "\\Authand",
-            "\\Authand"
+            "\\headrulewidth",
+            "\\headrulewidth"
         ],
         [
             "",
@@ -106,28 +111,12 @@
             "\\mathrm{mV}"
         ],
         [
-            "",
-            "\\mathrm{C}"
+            "\\contentsname",
+            "\\contentsname"
         ],
         [
-            "",
-            "\\mathrm{C}"
-        ],
-        [
-            "",
-            "\\mathrm{C}"
-        ],
-        [
-            "",
-            "\\mathrm{C}"
-        ],
-        [
-            "",
-            "\\mathrm{C}"
-        ],
-        [
-            "\\margin",
-            "\\margin"
+            "\\Authand",
+            "\\Authand"
         ]
     ]
 }

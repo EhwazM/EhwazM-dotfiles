@@ -2,34 +2,48 @@
     "bibitems": [
     ],
     "bibtexfiles": [
-        "/home/ehwazm/Documents/LaTeX/Artículo - Red Pitaya/References.bib#References.bib"
+        "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Red Pitaya/References.bib#References.bib"
     ],
     "childdocs": [
+        "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Red Pitaya/glossary.tex"
     ],
-    "filename": "/home/ehwazm/Documents/LaTeX/Artículo - Red Pitaya/Artíuclo - Red Pitaya.tex",
+    "filename": "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Red Pitaya/Artíuclo - Red Pitaya.tex",
     "labels": [
-        "fig:red_pitaya_board",
-        "fig:red_pitaya_board_alt",
+        "eq:quad",
+        "tab:lia_fpga_iir_results_no_stages",
         "fig:red_pitaya_board_hardware",
+        "tab:lia_fpga_fir_results",
+        "tab:lia_fpga_iir_noise_200mV_1200mV",
+        "fig:lia_ui_no_signal",
+        "tab:lia_sv_tb",
+        "tab:lia_fpga_expected",
+        "fig:aliasing_explanation",
+        "fig:lia_design",
         "fig:python_application",
-        "fig:aliasing_explanation"
+        "tab:lia_fpga_iir_noise_600mV_500mV",
+        "fig:lia_ui_signal",
+        "tab:lia_fpga_iir_results_800mv",
+        "fig:lia_sv_tb",
+        "tab:lia_fpga_iir_noise_600mV_1000mV",
+        "eq:in_phase",
+        "tab:lia_fpga_iir_results_2stages",
+        "tab:lia_wrapper",
+        "fig:red_pitaya_board",
+        "fig:red_pitaya_board"
     ],
-    "modified": "Tue Jan 27 14:00:57 2026",
+    "modified": "Wed Sep 2 23:55:08 2026",
     "packages": [
-        "hidelinks#hyperref",
-        "hidelinks#nameref",
-        "utf8#inputenc",
-        "T1#fontenc",
-        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
         "spanish, es-tabla#babel",
         "10pt,letterpaper#latex-document",
         "10pt,letterpaper#tex",
+        "T1#fontenc",
         "#xfrac",
         "#xcolor",
         "#tocloft",
         "#textcomp",
         "#subcaption",
         "#siunitx",
+        "#setspace",
         "#physics",
         "#multirow",
         "#multicol",
@@ -40,6 +54,7 @@
         "#fancyhdr",
         "#enumitem",
         "#csquotes",
+        "#caption",
         "#cancel",
         "#booktabs",
         "#authblk",
@@ -47,69 +62,580 @@
         "#amssymb",
         "#amsmath",
         "#alphabeta",
+        "acronym, nonumberlist#glossaries",
+        "utf8#inputenc",
+        "hidelinks#hyperref",
+        "hidelinks#nameref",
+        "left = \\margin, right = \\margin, top = \\margin, bottom = \\margin, headheight = 70pt#geometry",
         "backend = biber, style = numeric, sorting = none#biblatex"
     ],
     "refs": [
-        "fig:red_pitaya_board_alt",
-        "fig:red_pitaya_board",
-        "fig:red_pitaya_board_hardware",
+        "fig:lia_sv_tb",
         "fig:aliasing_explanation",
-        "fig:python_application"
+        "fig:red_pitaya_board",
+        "tab:lia_wrapper",
+        "fig:lia_design",
+        "fig:python_application",
+        "fig:lia_ui_no_signal",
+        "tab:lia_fpga_expected",
+        "tab:lia_fpga_iir_noise_600mV_500mV",
+        "tab:lia_fpga_iir_noise_600mV_1000mV",
+        "tab:lia_fpga_iir_noise_200mV_1200mV",
+        "fig:red_pitaya_board_alt",
+        "tab:lia_fpga_fir_results",
+        "tab:lia_fpga_iir_results_800mv",
+        "tab:lia_fpga_iir_results_2stages",
+        "tab:lia_fpga_iir_results_no_stages",
+        "fig:lia_ui_signal",
+        "fig:red_pitaya_board_hardware",
+        "tab:lia_sv_tb"
     ],
     "toc": [
-        "2#Resumen#88",
-        "2#Abstract#102",
-        "2#\\textbf{Objetivos}#115",
-        "3#Objetivo principal#118",
-        "3#Objetivos secundarios#124",
-        "2#Introducción#151",
-        "2#\\textit{Red Pitaya }-  Una navaja suiza para ingenieros#164",
-        "3#Arquitectura y funcionamiento#195",
-        "3#Hardware#209",
-        "4#Entradas y salidas analógicas (ADC/DAC)#219",
-        "4#Puertos de expansión GPIO y E2#222",
-        "4#Puerto de red y conectividad#225",
-        "4#Sincronización y relojes externos#228",
-        "4#Interfaz y software#231",
-        "2#Metodología#243",
-        "3#Comunicación con Red Pitaya#246",
-        "3#Procesamiento de datos#254",
-        "3#Programación de la FPGA - VHDL y Verilog#267",
-        "3#Interfaz gráfica#270",
-        "2#Motivación y significancia#282",
-        "2#Descripción del Software#289",
-        "3#Osciloscopio / Generador de señales#290",
-        "3#Lock-in#292",
-        "2#Ejemplos ilustrativos#294",
-        "3#Osciloscopio / Generador de señales#295",
-        "3#Lock-in#296",
-        "2#Impacto#298",
-        "2#Conclusiones#300"
+        "-1#glossary.tex#26",
+        "2#Resumen#98",
+        "2#Abstract#113",
+        "2#Introducción#177",
+        "2#\\textit{Red Pitaya }-  Una navaja suiza para ingenieros#191",
+        "3#Arquitectura y funcionamiento#223",
+        "3#Hardware#237",
+        "4#Entradas y salidas analógicas (ADC/DAC)#247",
+        "4#Puerto de red y conectividad#250",
+        "4#Sincronización y relojes externos#253",
+        "2#Amplificador lock-in#256",
+        "3#Lock-in amplifier en fase (In-Phase)#271",
+        "3#Lock-in Amplifier en fase y en cuadratura (In-Phase \\& Quadrature)#325",
+        "2#Metodología#354",
+        "3#Comunicación con Red Pitaya#357",
+        "3#Procesamiento de datos#365",
+        "3#Programación de la FPGA - VHDL y Verilog#378",
+        "3#Modulo de amplificador Lock-In#381",
+        "3#Interfaz gráfica#401",
+        "2#Motivación y significancia#414",
+        "2#Diseño en funcionamiento#421",
+        "3#Osciloscopio / Generador de señales#422",
+        "3#Lock-in#436",
+        "4#FPGA implementación funcionamiento con filtro FIR#497",
+        "4#FPGA implementación en funcionamiento con filtro IIR con y sin cascada.#538",
+        "4#Interfaz de usuario de la implementación de LIA#649",
+        "2#Impacto#674",
+        "2#BIBLIOGRAFÍA#681"
     ],
     "usercommands": [
         [
-            "\\Authand",
-            "\\Authand"
+            "",
+            "\\phi_{r}"
         ],
         [
-            "\\Authands",
-            "\\Authands"
+            "",
+            "\\omega_{r}"
         ],
         [
-            "\\headrulewidth",
-            "\\headrulewidth"
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{r}t + \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s}t + \\phi_{s}}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{r}t + \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s}t + \\phi_{s}}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\pqty{\\omega_{s}t + \\phi_{s}} - \\pqty{\\omega_{r}t + \\phi_{r}}) -\\cos(\\pqty{\\omega_{s}t + \\phi_{s}} + \\pqty{\\omega_{r}t + \\phi_{r}})}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{Q}"
+        ],
+        [
+            "",
+            "\\overline{R}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "\\cftsecleader",
+            "\\cftsecleader"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\alpha - \\beta) - \\cos(\\alpha + \\beta)}"
         ],
         [
             "\\contentsname",
             "\\contentsname"
         ],
         [
-            "\\margin",
-            "\\margin"
+            "",
+            "\\phi_{r}"
         ],
         [
-            "\\cftsecleader",
-            "\\cftsecleader"
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\pqty{A_{r}\\sin(\\omega_{r}t + \\phi_{r})}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{A_{s}\\sin(\\omega_{s}t + \\phi_{s}) + n(t)}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{A_{s}}{2}}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{A_{s}A_{r}}"
+        ],
+        [
+            "",
+            "\\overline{R}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "",
+            "\\overline{R}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "",
+            "\\bqty{\\sin(\\alpha - \\beta) + \\sin(\\alpha + \\beta)}"
+        ],
+        [
+            "",
+            "\\overline{R}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "",
+            "\\overline{R}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "",
+            "\\overline{R}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "\\contentsname",
+            "\\contentsname"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\phi_{s} + \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s} + \\omega_{r}}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\phi_{s} - \\phi_{r}}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\pqty{\\omega_{s} - \\omega_{r}}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\pqty{\\omega_{s} - \\omega_{r}}t + \\pqty{\\phi_{s} - \\phi_{r}}) - \\cos(\\pqty{\\omega_{s} + \\omega_{r}}t + \\pqty{\\phi_{s} + \\phi_{r}}) }"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_r"
+        ],
+        [
+            "",
+            "\\cancel{n(t)\\sin(\\omega t+\\phi_r)}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\cancel{\\cos(2\\omega t+\\phi_{hf})}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\phi_{rel}) - \\cancel{\\cos(2\\omega t+\\phi_{hf})}}"
+        ],
+        [
+            "",
+            "\\bqty{\\frac{A_{s}A_{r}}{2}\\bqty{\\cos(\\phi_{rel}) - \\cancel{\\cos(2\\omega t+\\phi_{hf})}}+\\cancel{n(t)\\sin(\\omega t+\\phi_r)}}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\lim_{T \\rightarrow \\infty}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\lim_{T \\rightarrow \\infty}"
+        ],
+        [
+            "\\Authand",
+            "\\Authand"
+        ],
+        [
+            "",
+            "\\phi_{s}"
+        ],
+        [
+            "",
+            "\\omega_{s}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "\\Authands",
+            "\\Authands"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\int_{0}"
+        ],
+        [
+            "",
+            "\\lim_{T \\rightarrow \\infty}"
+        ],
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\phi_{hf}"
+        ],
+        [
+            "",
+            "\\phi_{rel}"
+        ],
+        [
+            "",
+            "\\bqty{\\cos(\\phi_{rel}) - \\cos(2\\omega t + \\phi_{hf})}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{s}"
+        ],
+        [
+            "",
+            "\\phi_{r}"
+        ],
+        [
+            "",
+            "\\omega_{r}"
+        ],
+        [
+            "",
+            "\\Psi_{r}"
+        ],
+        [
+            "",
+            "\\pqty{1}"
+        ],
+        [
+            "",
+            "\\pqty{\\frac{A_{s}}{2}}"
+        ],
+        [
+            "",
+            "\\overline{Y}"
+        ],
+        [
+            "",
+            "\\overline{X}"
+        ],
+        [
+            "\\margin",
+            "\\margin"
         ]
     ]
 }

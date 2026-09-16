@@ -5,10 +5,10 @@
     ],
     "childdocs": [
     ],
-    "filename": "/home/ehwazm/Documents/LaTeX/Exposiciones/HEF - Energía/glossary.tex",
+    "filename": "/home/ehwazm/Documents/LaTeX/Template/glossary.tex",
     "labels": [
     ],
-    "modified": "Thu Jun 18 12:31:51 2026",
+    "modified": "Wed Sep 2 23:55:08 2026",
     "packages": [
     ],
     "refs": [
@@ -18,15 +18,15 @@
     "usercommands": [
         [
             "",
+            "%gls-label%snr"
+        ],
+        [
+            "",
             "%gls-label%lia"
         ],
         [
             "",
             "%gls-label%adc"
-        ],
-        [
-            "",
-            "%gls-label%snr"
         ]
     ]
 }
