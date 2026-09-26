@@ -5,10 +5,10 @@
     ],
     "childdocs": [
     ],
-    "filename": "/home/ehwazm/Documents/LaTeX/Template/glossary.tex",
+    "filename": "/home/ehwazm/Documents/LaTeX/Artículos/Artículo - Red Pitaya/glossary.tex",
     "labels": [
     ],
-    "modified": "Wed Sep 2 23:55:08 2026",
+    "modified": "Fri Sep 25 19:26:12 2026",
     "packages": [
     ],
     "refs": [
@@ -18,11 +18,11 @@
     "usercommands": [
         [
             "",
-            "%gls-label%snr"
+            "%gls-label%lia"
         ],
         [
             "",
-            "%gls-label%lia"
+            "%gls-label%snr"
         ],
         [
             "",

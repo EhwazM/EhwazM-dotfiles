@@ -203,6 +203,63 @@ hl.config({
             vibrancy = 0.1696,
         },
     },
+
+    group = {
+        auto_group = true,
+        insert_after_current = true,
+        focus_removed_window = true,
+
+        drag_into_group = 1,
+        merge_groups_on_drag = true,
+
+       col = {
+            border_active = {
+                colors = {
+                    "rgba(89b4faff)",
+                    "rgba(cba6f7ff)",
+                },
+                angle = 45,
+            },
+
+            border_inactive = "rgba(45475aaa)",
+
+            border_locked_active = {
+                colors = {
+                    "rgba(f38ba8ff)",
+                    "rgba(fab387ff)",
+                },
+                angle = 45,
+            },
+
+            border_locked_inactive = "rgba(585b70aa)",
+        },
+
+        groupbar = {
+            enabled = true,
+
+            height = 24,
+            font_size = 11,
+
+            render_titles = true,
+            gradients = false,
+            stacked = false,
+            scrolling = true,
+
+            gaps_in = 1,
+            gaps_out = 1,
+
+            indicator_height = 2,
+            indicator_gap = 1,
+
+            font_weight_active = "bold",
+            font_weight_inactive = "normal",
+
+            ["col.active"] = "rgba(89b4faff)",
+            ["col.inactive"] = "rgba(20202eff)",
+            ["col.locked_active"] = "rgba(cba6f7ff)",
+            ["col.locked_inactive"] = "rgba(20202eff)",
+        },
+    },
 })
 
 -- ============================================================

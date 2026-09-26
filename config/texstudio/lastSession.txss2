@@ -1,7 +1,7 @@
 {
     "InternalPDFViewer": {
-        "Embedded": true,
-        "File": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/Artíuclo - Red Pitaya.pdf"
+        "Embedded": false,
+        "File": ""
     },
     "Session": {
         "Bookmarks": [
@@ -13,25 +13,9 @@
                 "Col": 494,
                 "EditorGroup": 0,
                 "FileName": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/Artíuclo - Red Pitaya.tex",
-                "FirstLine": 657,
+                "FirstLine": 658,
                 "FoldedLines": "",
                 "Line": 660
-            },
-            {
-                "Col": 0,
-                "EditorGroup": 0,
-                "FileName": "../../Documents/LaTeX/Template/template.tex",
-                "FirstLine": 0,
-                "FoldedLines": "",
-                "Line": 0
-            },
-            {
-                "Col": 0,
-                "EditorGroup": 0,
-                "FileName": "../../Documents/LaTeX/Artículos/Artículo - Red Pitaya/softwarex-osp-template.tex",
-                "FirstLine": 167,
-                "FoldedLines": "",
-                "Line": 242
             }
         ],
         "MasterFile": "",

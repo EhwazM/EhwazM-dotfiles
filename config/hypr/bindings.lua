@@ -21,10 +21,9 @@ hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + G", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + mouse:274", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
-hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-hl.bind(mainMod .. " + T", hl.dsp.window.pin())
-
--- hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
+hl.bind(mainMod .. " + J", hl.dsp.window.pseudo())
+hl.bind(mainMod .. " + P", hl.dsp.window.pin())
+-- hl.bind(mainMod .. " + T", hl.dsp.group.toggle())
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
@@ -229,3 +228,63 @@ hl.bind(
     hl.dsp.exec_cmd("hyprpicker -ar")
 )
 
+----------------------------------------------------------------------
+-- TAB / GROUP KEYBINDS
+----------------------------------------------------------------------
+
+-- SUPER + G
+-- Turn the current window into a tab group / add it to a group.
+hl.bind(
+    mainMod .. " + T",
+    hl.dsp.group.toggle()
+)
+
+-- SUPER + LEFT/RIGHT
+-- Switch between tabs.
+hl.bind(
+    mainMod .. " + ALT + LEFT",
+    hl.dsp.group.prev()
+)
+
+hl.bind(
+    mainMod .. " + ALT + RIGHT",
+    hl.dsp.group.next()
+)
+
+-- SUPER + SHIFT + LEFT/RIGHT
+-- Reorder tabs.
+hl.bind(
+    mainMod .. " + SHIFT + LEFT",
+    hl.dsp.group.move_window({ forward = false })
+)
+
+hl.bind(
+    mainMod .. " + SHIFT + RIGHT",
+    hl.dsp.group.move_window({ forward = true })
+)
+
+-- SUPER + L
+-- Lock the current group.
+--
+-- Useful when you have a group you don't want new windows
+-- automatically joining.
+-- hl.bind(
+--     mainMod .. " + L",
+--     hl.dsp.group.lock_active({ action = "toggle" })
+-- )
+
+
+----------------------------------------------------------------------
+-- OPTIONAL: SUPER + TAB
+-- Cycle tabs
+----------------------------------------------------------------------
+--
+-- hl.bind(
+--     mainMod .. " + TAB",
+--     hl.dsp.group.next()
+-- )
+--
+-- hl.bind(
+--     mainMod .. " + SHIFT + TAB",
+--     hl.dsp.group.prev()
+-- )
